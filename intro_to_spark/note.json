@@ -3,7 +3,7 @@
     {
       "text": "%md ## Course Name:  CSDA 1020 – Big Data Tools\n## Day #: 1\n## Module Name:  Apache Hadoop and Spark",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 13:07:28.348",
+      "dateUpdated": "2018-07-24 05:32:47.334",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -16,7 +16,7 @@
           "completionSupport": false
         },
         "editorMode": "ace/mode/markdown",
-        "editorHide": true,
+        "editorHide": false,
         "tableHide": false
       },
       "settings": {
@@ -44,7 +44,7 @@
     {
       "text": "%md\n\u003cp align\u003d\"center\"\u003e\n  \u003cb\u003e\u003ch1\u003eIntroduction to Apache Spark\u003c/h1\u003e\u003c/b\u003e\n  \u003cimg src\u003d\"https://spark.apache.org/images/spark-logo-trademark.png\"\u003e\n  \u003cimg src\u003d\"https://learn.continue.yorku.ca/theme/scs/pix/york-logo.png\"\u003e\n\u003c/p\u003e",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 13:07:17.784",
+      "dateUpdated": "2018-07-24 05:32:47.372",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -57,7 +57,7 @@
           "completionSupport": false
         },
         "editorMode": "ace/mode/markdown",
-        "editorHide": true,
+        "editorHide": false,
         "tableHide": false
       },
       "settings": {
@@ -85,7 +85,7 @@
     {
       "text": "%md ## Links \n\n\u003cp\u003e\u003ca href\u003d\"https://spark.apache.org/docs/latest/api/sql/index.html\" target\u003d\"_blank\"\u003eSpark SQL doc\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href\u003d\"http://data.gdeltproject.org/documentation/GDELT-Event_Codebook-V2.0.pdf\" target\u003d\"_blank\"\u003eGDELT events doc\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href\u003d\"http://data.gdeltproject.org/gdeltv2/masterfilelist.txt\" target\u003d\"_blank\"\u003eGDELT Masterfiles\u003c/a\u003e\u003c/p\u003e\n\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 13:12:23.394",
+      "dateUpdated": "2018-07-24 05:32:43.609",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -98,7 +98,7 @@
           "completionSupport": false
         },
         "editorMode": "ace/mode/markdown",
-        "editorHide": true,
+        "editorHide": false,
         "tableHide": false
       },
       "settings": {
@@ -126,7 +126,7 @@
     {
       "text": "%md # Apache Spark ",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 20:29:36.679",
+      "dateUpdated": "2018-07-24 05:32:43.644",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -167,7 +167,7 @@
     {
       "text": "%md We need to import the libraries\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 17:52:28.560",
+      "dateUpdated": "2018-07-24 05:32:43.681",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -179,7 +179,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -195,7 +196,7 @@
     {
       "text": "import org.apache.spark.sql.{Dataset, DataFrame, SparkSession, Row}\n\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 18:42:45.555",
+      "dateUpdated": "2018-07-24 05:32:43.715",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -207,7 +208,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -234,7 +236,7 @@
     {
       "text": "%md ### The Spark Session \nThis is a driver process that allows you to your Spark Application . The SparkSession instance is the way Spark executes user-defined manipulations across the cluster. \nEvery spark application must have a spark session. When you are using zeppelin or the spark-shell from the command line a spark session object is provided. typing\nspark and running the cell will print the hashcode for the provided spark session.",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 13:12:52.758",
+      "dateUpdated": "2018-07-24 05:32:43.752",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -275,7 +277,7 @@
     {
       "text": "%md ## DataFrames\n\nA DataFrame is the most common Structured API and simply represents a table of data with rows and columns. The list that defines the columns and the types within those columns is called the schema.\nYou can think of a DataFrame as a spreadsheet with named columns. A spreadsheet sits on one computer in one specific location, whereas a Spark DataFrame can span thousands of computers.\nThe reason for putting the data on more than one is because the data is too large to fit on one machine or it would simply take too long to perform that computation on one machine.",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 17:42:37.146",
+      "dateUpdated": "2018-07-24 05:32:43.787",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -288,7 +290,7 @@
           "completionSupport": false
         },
         "editorMode": "ace/mode/markdown",
-        "editorHide": true,
+        "editorHide": false,
         "tableHide": false
       },
       "settings": {
@@ -316,7 +318,7 @@
     {
       "text": "%md ### Lets create a dataframe. \n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 17:50:02.712",
+      "dateUpdated": "2018-07-24 05:32:43.824",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -328,7 +330,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -344,7 +347,7 @@
     {
       "text": "val base_path\u003d\"file:///home/yard\"\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 20:40:43.550",
+      "dateUpdated": "2018-07-24 05:32:43.861",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -356,7 +359,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -383,7 +387,7 @@
     {
       "text": "\nval data_path\u003d\"file:///home/yard/data/flight-data/csv/2015-summary.csv\"\nval flightData2015 \u003d spark.read.option(\"inferSchema\", \"true\").option(\"header\", \"true\").csv(data_path)",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 18:43:06.091",
+      "dateUpdated": "2018-07-24 05:32:43.896",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -395,7 +399,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -434,7 +439,21 @@
     },
     {
       "user": "anonymous",
-      "config": {},
+      "dateUpdated": "2018-07-24 05:32:43.933",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
+      },
       "settings": {
         "params": {},
         "forms": {}
@@ -449,7 +468,7 @@
     {
       "text": "%md ## Partitions\n\nTo allow every executor to perform work in parallel, Spark breaks up the data into chunks called partitions.\nA partition is a collection of rows that sit on one physical machine in your cluster. \nA DataFrame’s partitions represent how the data is physically distributed across the cluster of machines during execution.\nIf you have one partition, Spark will have a parallelism of only one, even if you have thousands of executors. \nIf you have many partitions but only one executor, Spark will still have a parallelism of only one because there is only one computation resource.\n\n\n\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 20:03:12.794",
+      "dateUpdated": "2018-07-24 05:32:43.968",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -462,7 +481,7 @@
           "completionSupport": false
         },
         "editorMode": "ace/mode/markdown",
-        "editorHide": true,
+        "editorHide": false,
         "tableHide": false
       },
       "settings": {
@@ -490,7 +509,7 @@
     {
       "text": "%md ## DataFrame Transformations\nIn Spark, the core data structures are immutable, meaning they cannot be changed after they’re created. \nTo “change” a DataFrame, you need to instruct Spark how you would like to modify it to do what you want. \nThese instructions are called transformations. Let’s perform a simple transformation to find all even numbers in dataframe:\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 20:36:46.847",
+      "dateUpdated": "2018-07-24 05:32:44.006",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -503,7 +522,7 @@
           "completionSupport": false
         },
         "editorMode": "ace/mode/markdown",
-        "editorHide": true,
+        "editorHide": false,
         "tableHide": false
       },
       "settings": {
@@ -531,7 +550,7 @@
     {
       "text": "val myRange \u003d spark.range(1000).toDF(\"number\")\n\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 20:06:59.470",
+      "dateUpdated": "2018-07-24 05:32:44.042",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -543,7 +562,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -570,7 +590,7 @@
     {
       "text": "val divisBy2 \u003d myRange.where(\"number % 2 \u003d 0\")\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 20:07:03.648",
+      "dateUpdated": "2018-07-24 05:32:44.081",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -582,7 +602,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -609,7 +630,7 @@
     {
       "text": "divisBy2.show",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 20:09:44.697",
+      "dateUpdated": "2018-07-24 05:32:44.119",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -621,7 +642,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -637,7 +659,7 @@
     {
       "text": "%md ## Basic Structured Operations\nThese operations allow us to manipulate a dataframe and the data within them. Dataframe have schemas. \nSchemas define the name as well as the type of data in each column",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 20:42:11.411",
+      "dateUpdated": "2018-07-24 05:32:44.155",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -678,7 +700,7 @@
     {
       "text": "%md ## Let’s create a DataFrame with which we can work:\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 20:39:20.936",
+      "dateUpdated": "2018-07-24 05:32:44.191",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -690,7 +712,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -706,7 +729,7 @@
     {
       "text": "\nval df \u003d spark.read.format(\"json\").load(s\"$base_path/data/flight-data/json/2015-summary.json\")",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 20:41:10.641",
+      "dateUpdated": "2018-07-24 05:32:44.226",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -718,7 +741,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -757,7 +781,7 @@
     {
       "text": "%md we can view a dataframe schema using the following command:",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 20:43:02.145",
+      "dateUpdated": "2018-07-24 05:32:44.263",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -769,7 +793,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -785,7 +810,7 @@
     {
       "text": "df.printSchema()",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 20:43:16.951",
+      "dateUpdated": "2018-07-24 05:32:44.298",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -797,7 +822,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -824,7 +850,7 @@
     {
       "text": "%md ## Schemas\nA schema defines the column names and types of a DataFrame.\nWe can either let a data source define the schema (called schema-on-read) or we can define it explicitly ourselves",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 20:56:00.425",
+      "dateUpdated": "2018-07-24 05:32:44.333",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -865,7 +891,7 @@
     {
       "text": "%md\nLet\u0027s start with a simple file. This is flight data from the United States Bureau of Transportation statistics\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 21:19:02.439",
+      "dateUpdated": "2018-07-24 05:32:44.371",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -877,7 +903,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -893,7 +920,7 @@
     {
       "text": "spark.read.format(\"json\").load(s\"$base_path/data/flight-data/json/2015-summary.json\").schema\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 21:19:55.631",
+      "dateUpdated": "2018-07-24 05:32:44.406",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -905,7 +932,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -944,7 +972,7 @@
     {
       "text": "%md A schema is a StructType made up of a number of fields, StructFields, that have a name, type, \na Boolean flag which specifies whether that column can contain missing or null values, and, \nfinally, users can optionally specify associated metadata with that column. The metadata is \na way of storing information about this column",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 21:50:38.331",
+      "dateUpdated": "2018-07-24 05:32:44.443",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -985,7 +1013,7 @@
     {
       "text": "%md Schemas can contain other StructTypes ( see: \u003ca href\u003d\"https://docs.databricks.com/spark/latest/dataframes-datasets/complex-nested-data.html\" target\u003d\"_blank\"\u003eSpark’s complex types \u003c/a\u003e)  \nIf the types in the data (at runtime) do not match the schema, Spark will throw an error. \nThe example that below shows how to create and enforce a specific schema on a DataFrame",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 21:51:59.376",
+      "dateUpdated": "2018-07-24 05:32:44.515",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1026,7 +1054,7 @@
     {
       "text": "\nimport org.apache.spark.sql.types.{StructField, StructType, StringType, LongType}\nimport org.apache.spark.sql.types.Metadata\n\nval myManualSchema \u003d StructType(Array(StructField(\"DEST_COUNTRY_NAME\", StringType, true),\nStructField(\"ORIGIN_COUNTRY_NAME\", StringType, true), \nStructField(\"count\", LongType, false, \nMetadata.fromJson(\"{\\\"hello\\\":\\\"world\\\"}\"))))\n\nval df \u003d spark.read.format(\"json\").schema(myManualSchema)  .load(s\"$base_path/data/flight-data/json/2015-summary.json\")",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 21:23:12.379",
+      "dateUpdated": "2018-07-24 05:32:44.477",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1038,7 +1066,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -1065,7 +1094,7 @@
     {
       "text": "%md ## Columns and Expressions\n\nColumns in Spark are similar to columns in a spreadsheet, R dataframe, or pandas DataFrame. \nYou can select, manipulate, and remove columns from DataFrames and these operations are represented as expressions.\nTo Spark, columns are logical constructions that simply represent a value computed on a per-record basis by means of an expression.\nThis means that to have a real value for a column, we need to have a row; and to have a row, we need to have a DataFrame. \nYou cannot manipulate an individual column outside the context of a DataFrame; \nyou must use Spark transformations within a DataFrame to modify the contents of a column.Columns\nThere are a lot of different ways to construct and refer to columns but the two simplest ways are by using the col or column functions. \nTo use either of these functions, you pass in a column name:",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 21:54:34.085",
+      "dateUpdated": "2018-07-24 05:32:44.586",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1106,7 +1135,7 @@
     {
       "text": "%md ## Accessing columns in a dataframe\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 21:57:45.063",
+      "dateUpdated": "2018-07-24 05:32:44.622",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1147,7 +1176,7 @@
     {
       "text": "%md If you need to refer to a specific DataFrame’s column, you can use the col method on the specific DataFrame. \nThis can be useful when you are performing a join and need to refer to a specific column in one DataFrame that might share\na name with another column in the joined DataFrame",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 21:59:14.022",
+      "dateUpdated": "2018-07-24 05:32:44.659",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1188,7 +1217,7 @@
     {
       "text": "\nval df2 \u003d df.select( df.col(\"count\") - 1 )\n\ndf2.show\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:05:01.726",
+      "dateUpdated": "2018-07-24 05:32:44.696",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1200,7 +1229,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -1239,7 +1269,7 @@
     {
       "text": "df.columns",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:05:59.449",
+      "dateUpdated": "2018-07-24 05:32:44.733",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1251,7 +1281,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -1278,7 +1309,7 @@
     {
       "text": "%md ### Records and Rows\nIn Spark, each row in a DataFrame is a single record. Spark represents this record as an object of type Row. \nSpark manipulates Row objects using column expressions in order to produce usable values. \nRow objects internally represent arrays of bytes. \n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:07:55.206",
+      "dateUpdated": "2018-07-24 05:32:44.770",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1319,7 +1350,7 @@
     {
       "text": "\ndf.first()",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:08:04.785",
+      "dateUpdated": "2018-07-24 05:32:44.807",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1331,7 +1362,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -1370,7 +1402,7 @@
     {
       "text": "df.take(2)",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:08:22.441",
+      "dateUpdated": "2018-07-24 05:32:44.842",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1382,7 +1414,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -1421,7 +1454,7 @@
     {
       "text": "%md # DataFrame Transformations\n\nWhen working with individual DataFrames there are some fundamental objectives.\nThese break down into several core operations,\n1. We can add rows or columns\n2. We can remove rows or columns\n3. We can transform a row into a column (or vice versa)\n4. We can change the order of rows based on the values in columns",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:12:08.197",
+      "dateUpdated": "2018-07-24 05:32:44.879",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1462,7 +1495,7 @@
     {
       "text": "%md ## Creating DataFrames\nLet create a sample dataframe to play with\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:12:46.569",
+      "dateUpdated": "2018-07-24 05:32:44.914",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1474,7 +1507,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -1490,7 +1524,7 @@
     {
       "text": "//load the data from file\nval df \u003d spark.read.format(\"json\").load(s\"$base_path/data/flight-data/json/2015-summary.json\")\n\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:17:31.945",
+      "dateUpdated": "2018-07-24 05:32:44.950",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1502,7 +1536,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -1541,7 +1576,7 @@
     {
       "text": "//create a table\ndf.createOrReplaceTempView(\"dfTable\")\n\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:17:35.638",
+      "dateUpdated": "2018-07-24 05:32:44.986",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1553,7 +1588,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -1575,7 +1611,7 @@
     {
       "text": "%md ### select and selectExpr\nselect and selectExpr allow you to do the DataFrame equivalent of SQL queries on a table of data:",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:21:20.590",
+      "dateUpdated": "2018-07-24 05:32:45.026",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1616,7 +1652,7 @@
     {
       "text": "%sql\n\nSELECT * FROM dfTable\n\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:23:07.318",
+      "dateUpdated": "2018-07-24 05:32:45.064",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1658,7 +1694,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/sql",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -1697,7 +1734,7 @@
     {
       "text": "%sql\nSELECT columnName FROM dataFrameTable\nSELECT columnName * 10, otherColumn, someOtherCol as c FROM dataFrameTable\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:23:05.210",
+      "dateUpdated": "2018-07-24 05:32:45.100",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1709,7 +1746,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/sql",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -1725,7 +1763,7 @@
     {
       "text": "%md In the simplest possible terms, you can use them to manipulate columns in your DataFrames. Let’s walk through some examples on DataFrames to \ntalk about some of the different ways of approaching this problem. The easiest way is just to use the select method and pass in the column names as strings with which you would like to work:\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:24:24.902",
+      "dateUpdated": "2018-07-24 05:32:45.137",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1737,7 +1775,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -1753,7 +1792,7 @@
     {
       "text": "\n// in Scala\ndf.select(\"DEST_COUNTRY_NAME\").show(2)",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:25:20.826",
+      "dateUpdated": "2018-07-24 05:32:45.173",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1765,7 +1804,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -1781,7 +1821,7 @@
     {
       "text": "%md You can select multiple columns by using the same style of query, just add more column name strings to your select method call:",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:26:43.227",
+      "dateUpdated": "2018-07-24 05:32:45.246",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1822,7 +1862,7 @@
     {
       "text": "// in Scala\ndf.select(\"DEST_COUNTRY_NAME\", \"ORIGIN_COUNTRY_NAME\").show(2)",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:27:00.549",
+      "dateUpdated": "2018-07-24 05:32:45.283",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1834,7 +1874,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -1850,7 +1891,7 @@
     {
       "text": "%sql\nSELECT DEST_COUNTRY_NAME, ORIGIN_COUNTRY_NAME FROM dfTable LIMIT 2\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:27:24.919",
+      "dateUpdated": "2018-07-24 05:32:45.321",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1891,7 +1932,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/sql",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -1930,7 +1972,7 @@
     {
       "text": "%sql\nSELECT DEST_COUNTRY_NAME FROM dfTable LIMIT 2",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:25:42.211",
+      "dateUpdated": "2018-07-24 05:32:45.210",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -1970,7 +2012,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/sql",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2009,7 +2052,7 @@
     {
       "text": "%md you can refer to columns in a number of different ways; all you need to keep in mind is that you can use them interchangeably\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:34:40.736",
+      "dateUpdated": "2018-07-24 05:32:45.357",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2021,7 +2064,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2037,7 +2081,7 @@
     {
       "text": "import org.apache.spark.sql.functions.{expr, col, column}\n\ndf.select(df.col(\"DEST_COUNTRY_NAME\"),\ncol(\"DEST_COUNTRY_NAME\"),\ncolumn(\"DEST_COUNTRY_NAME\"),\n\u0027DEST_COUNTRY_NAME, \n$\"DEST_COUNTRY_NAME\",\nexpr(\"DEST_COUNTRY_NAME\")).show(2)\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:36:28.651",
+      "dateUpdated": "2018-07-24 05:32:45.394",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2049,7 +2093,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2088,7 +2133,7 @@
     {
       "text": "%md This will not work, because you are mixing different types",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:37:31.360",
+      "dateUpdated": "2018-07-24 05:32:45.466",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2101,7 +2146,7 @@
           "completionSupport": false
         },
         "editorMode": "ace/mode/markdown",
-        "editorHide": true,
+        "editorHide": false,
         "tableHide": false
       },
       "settings": {
@@ -2129,7 +2174,7 @@
     {
       "text": "df.select(col(\"DEST_COUNTRY_NAME\"), \"DEST_COUNTRY_NAME\")",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:37:38.367",
+      "dateUpdated": "2018-07-24 05:32:45.429",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2141,7 +2186,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2168,7 +2214,7 @@
     {
       "text": "%md expr is the most flexible reference that we can use. \nIt can refer to a plain column or a string manipulation of a column. \nTo illustrate, let’s change the column name, and then change it back by using the AS keyword and then the alias method on the column:",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:38:31.276",
+      "dateUpdated": "2018-07-24 05:32:45.501",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2180,7 +2226,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2196,7 +2243,7 @@
     {
       "text": "// in Scala\ndf.select(expr(\"DEST_COUNTRY_NAME AS destination\")).show(2)",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:38:53.481",
+      "dateUpdated": "2018-07-24 05:32:45.540",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2208,7 +2255,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2247,7 +2295,7 @@
     {
       "text": "%sql\nSELECT DEST_COUNTRY_NAME as destination FROM dfTable LIMIT 2",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:39:31.387",
+      "dateUpdated": "2018-07-24 05:32:45.578",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2287,7 +2335,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/sql",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2326,7 +2375,7 @@
     {
       "text": "// You can also do \n// in Scala\ndf.select(expr(\"DEST_COUNTRY_NAME as destination\").alias(\"DEST_COUNTRY_NAME\")).show(2)\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:44:13.621",
+      "dateUpdated": "2018-07-24 05:32:45.614",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2379,7 +2428,7 @@
     {
       "text": "%md We can treat selectExpr as a simple way to build up complex expressions that create new DataFrames. \nIn fact, we can add any valid non-aggregating SQL statement, and as long as the columns resolve,\nit will be valid! Here’s a simple example that adds a new column withinCountry to our DataFrame that specifies whether the destination and origin are the same:",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:45:34.419",
+      "dateUpdated": "2018-07-24 05:32:45.652",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2391,7 +2440,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2407,7 +2457,7 @@
     {
       "text": "// in Scala\ndf.selectExpr(\n    \"*\", // include all original columns \n    \"(DEST_COUNTRY_NAME \u003d ORIGIN_COUNTRY_NAME) as withinCountry\"\n    ).show(2)",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:46:14.391",
+      "dateUpdated": "2018-07-24 05:32:45.687",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2419,7 +2469,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2458,7 +2509,7 @@
     {
       "text": "%md In sql\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:47:00.384",
+      "dateUpdated": "2018-07-24 05:32:45.724",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2470,7 +2521,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2486,7 +2538,7 @@
     {
       "text": "%sql\nSELECT *, (DEST_COUNTRY_NAME \u003d ORIGIN_COUNTRY_NAME) as withinCountry FROM dfTable LIMIT 2\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:48:08.259",
+      "dateUpdated": "2018-07-24 05:32:45.761",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2529,7 +2581,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/sql",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2568,7 +2621,7 @@
     {
       "text": "%md\nWith select expression, we can also specify aggregations over the entire DataFrame by taking advantage of the functions that we have. These look just like what we have been showing so far:\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:48:53.941",
+      "dateUpdated": "2018-07-24 05:32:45.797",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2580,7 +2633,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2596,7 +2650,7 @@
     {
       "text": "df.selectExpr(\"avg(count)\", \"count(distinct(DEST_COUNTRY_NAME))\").show(2)\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:49:16.304",
+      "dateUpdated": "2018-07-24 05:32:45.834",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2608,7 +2662,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2647,7 +2702,7 @@
     {
       "text": "%sql\nSELECT avg(count), count(distinct(DEST_COUNTRY_NAME)) FROM dfTable LIMIT 2",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:49:40.527",
+      "dateUpdated": "2018-07-24 05:32:45.869",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2688,7 +2743,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/sql",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2727,7 +2783,7 @@
     {
       "text": "%md ## Converting to Spark Types (Literals)\n\nSometimes, we need to pass explicit values into Spark that are just a value (rather than a new column). This might be a constant value or something we’ll need to compare to later on. \nThe way we do this is through literals. This is basically a translation from a given programming language’s literal value to one that Spark understands. Literals are expressions and you can use them in the same way:\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:50:32.125",
+      "dateUpdated": "2018-07-24 05:32:45.907",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2739,7 +2795,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2755,7 +2812,7 @@
     {
       "text": "import org.apache.spark.sql.functions.litdf.select(expr(\"*\"), lit(1).as(\"One\")).show(2)\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:50:49.063",
+      "dateUpdated": "2018-07-24 05:32:45.942",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2767,7 +2824,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2783,7 +2841,7 @@
     {
       "text": "//in scala\ndf.select(expr(\"*\"), lit(1).as(\"One\")).show(2)",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:51:31.116",
+      "dateUpdated": "2018-07-24 05:32:45.980",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2795,7 +2853,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2811,7 +2870,7 @@
     {
       "text": "%sql\nSELECT *, 1 as One FROM dfTable LIMIT 2",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:51:49.250",
+      "dateUpdated": "2018-07-24 05:32:46.017",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2854,7 +2913,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/sql",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2893,7 +2953,7 @@
     {
       "text": "%md ## Adding Columns\nThere’s also a more formal way of adding a new column to a DataFrame, and that’s by using the withColumn method on our DataFrame. For example, let’s add a column that just adds the number one as a column:\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:54:58.919",
+      "dateUpdated": "2018-07-24 05:32:46.055",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2934,7 +2994,7 @@
     {
       "text": "df.withColumn(\"numberOne\", lit(1)).show(2)\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:55:36.283",
+      "dateUpdated": "2018-07-24 05:32:46.092",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -2946,7 +3006,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -2985,7 +3046,7 @@
     {
       "text": "%sql\nSELECT *, 1 as numberOne FROM dfTable LIMIT 2",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:55:41.829",
+      "dateUpdated": "2018-07-24 05:32:46.128",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3028,7 +3089,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/sql",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3067,7 +3129,7 @@
     {
       "text": "%md Let’s do something a bit more interesting and make it an actual expression. In the next example, we’ll set a Boolean flag for when the origin country is the same as the destination country:\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:56:29.048",
+      "dateUpdated": "2018-07-24 05:32:46.165",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3108,7 +3170,7 @@
     {
       "text": "df.withColumn(\"withinCountry\", expr(\"ORIGIN_COUNTRY_NAME \u003d\u003d DEST_COUNTRY_NAME\")).show(2)\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:57:05.475",
+      "dateUpdated": "2018-07-24 05:32:46.201",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3120,7 +3182,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3159,7 +3222,7 @@
     {
       "text": "%md ## Renaming Columns\nYou can use the withColumnRenamed method. This will rename the column with the name of the string in the first argument to the string in the second argument",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:58:23.492",
+      "dateUpdated": "2018-07-24 05:32:46.240",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3200,7 +3263,7 @@
     {
       "text": "df.withColumnRenamed(\"DEST_COUNTRY_NAME\", \"dest\").columns\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 22:58:46.388",
+      "dateUpdated": "2018-07-24 05:32:46.277",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3212,7 +3275,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3239,7 +3303,7 @@
     {
       "text": "%md ## Removing Columns",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 23:00:15.474",
+      "dateUpdated": "2018-07-24 05:32:46.313",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3280,7 +3344,7 @@
     {
       "text": "df.drop(\"ORIGIN_COUNTRY_NAME\").columns\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 23:00:25.525",
+      "dateUpdated": "2018-07-24 05:32:46.349",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3292,7 +3356,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3319,7 +3384,7 @@
     {
       "text": "%md We can drop multiple columns by passing in multiple columns as arguments:",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 23:03:00.616",
+      "dateUpdated": "2018-07-24 05:32:46.384",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3360,7 +3425,7 @@
     {
       "text": "dfWithLongColName.drop(\"ORIGIN_COUNTRY_NAME\", \"DEST_COUNTRY_NAME\")\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-22 23:03:10.176",
+      "dateUpdated": "2018-07-24 05:32:46.421",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3372,7 +3437,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3399,7 +3465,7 @@
     {
       "text": "%md ## Changing a Column’s Type (cast)\n\nSometimes, we might need to convert from one type to another; for example, if we have a set of StringType that should be integers. \nWe can convert columns from one type to another by casting the column from one type to another.\nFor instance, let’s convert our count column from an integer to a type Long:",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:15:36.286",
+      "dateUpdated": "2018-07-24 05:32:46.456",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3411,7 +3477,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3427,7 +3494,7 @@
     {
       "text": "\ndf.withColumn(\"count2\", col(\"count\").cast(\"long\"))",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:15:49.436",
+      "dateUpdated": "2018-07-24 05:32:46.497",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3439,7 +3506,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3455,7 +3523,7 @@
     {
       "text": "%sql\n-- in SQL\nSELECT *, cast(count as long) AS count2 FROM dfTable",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:16:09.396",
+      "dateUpdated": "2018-07-24 05:32:46.534",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3498,7 +3566,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/sql",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3537,7 +3606,7 @@
     {
       "text": "%md ## Filtering Rows\nTo filter rows, we create an expression that evaluates to true or false. You then filter out the rows with an expression that is equal to false.\nThe most common way to do this with DataFrames is to create either an expression as a String or build an expression by using a set of column manipulations. \nThere are two methods to perform this operation: \n1. you can use where or filter\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:25:22.128",
+      "dateUpdated": "2018-07-24 05:32:46.569",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3578,7 +3647,7 @@
     {
       "text": "%md using \"filter\"\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:26:17.994",
+      "dateUpdated": "2018-07-24 05:32:46.641",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3590,7 +3659,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3606,7 +3676,7 @@
     {
       "text": "df.filter(col(\"count\") \u003c 2).show(2)\n\n\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:28:00.532",
+      "dateUpdated": "2018-07-24 05:32:46.605",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3618,7 +3688,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3657,7 +3728,7 @@
     {
       "text": "%md using where",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:26:41.648",
+      "dateUpdated": "2018-07-24 05:32:46.717",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3669,7 +3740,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3685,7 +3757,7 @@
     {
       "text": "df.where(\"count \u003c 2\").show(2)",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:27:55.654",
+      "dateUpdated": "2018-07-24 05:32:46.678",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3697,7 +3769,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3736,7 +3809,7 @@
     {
       "text": "%sql \n-- in SQL\nSELECT * FROM dfTable WHERE count \u003c 2 LIMIT 2",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:27:23.909",
+      "dateUpdated": "2018-07-24 05:32:46.753",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3778,7 +3851,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/sql",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3817,7 +3891,7 @@
     {
       "text": "%md ## Using multiple filters\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:28:52.726",
+      "dateUpdated": "2018-07-24 05:32:46.790",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3829,7 +3903,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3845,7 +3920,7 @@
     {
       "text": "// in Scala\ndf.where(col(\"count\") \u003c 2).where(col(\"ORIGIN_COUNTRY_NAME\") \u003d!\u003d \"Croatia\").show(2)\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:29:20.871",
+      "dateUpdated": "2018-07-24 05:32:46.826",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3857,7 +3932,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3896,7 +3972,7 @@
     {
       "text": "%sql\n-- in SQL\nSELECT * FROM dfTable WHERE count \u003c 2 AND ORIGIN_COUNTRY_NAME !\u003d \"Croatia\"LIMIT 2",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:30:40.669",
+      "dateUpdated": "2018-07-24 05:32:46.863",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3938,7 +4014,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/sql",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -3977,7 +4054,7 @@
     {
       "text": "%md Getting Unique Rows\nA very common use case is to extract the unique or distinct values in a DataFrame. These values can be in one or more columns.\nThe way we do this is by using the distinct method on a DataFrame, which allows us to deduplicate any rows that are in that DataFrame.\nFor instance, let’s get the unique origins in our dataset. This, of course, is a transformation that will return a new DataFrame with only unique rows:\n\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:32:01.258",
+      "dateUpdated": "2018-07-24 05:32:46.898",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -3989,7 +4066,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -4005,7 +4083,7 @@
     {
       "text": "// in Scala\ndf.select(\"ORIGIN_COUNTRY_NAME\", \"DEST_COUNTRY_NAME\").distinct().count()\n\n\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:32:45.055",
+      "dateUpdated": "2018-07-24 05:32:46.935",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -4017,7 +4095,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -4033,7 +4112,7 @@
     {
       "text": "%sql\n-- in SQL \nSELECT COUNT(DISTINCT(ORIGIN_COUNTRY_NAME, DEST_COUNTRY_NAME)) FROM dfTable",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:33:06.139",
+      "dateUpdated": "2018-07-24 05:32:46.973",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -4073,7 +4152,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/sql",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -4112,7 +4192,7 @@
     {
       "text": "%md ## Concatenating and Appending Rows (Union)\n\nDataFrames are immutable. This means users cannot append to DataFrames because that would be changing it.\nTo append to a DataFrame, you must union the original DataFrame along with the new DataFrame.\nThis just concatenates the two DataFramess. To union two DataFrames, you must be sure that they have the same schema and number of columns;\notherwise, the union will fail. see the example below\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:36:18.960",
+      "dateUpdated": "2018-07-24 05:32:47.009",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -4153,7 +4233,7 @@
     {
       "text": "\n// in Scala\nimport org.apache.spark.sql.Row\n\nval schema \u003d df.schema\nval newRows \u003d Seq(  Row(\"New Country\", \"Other Country\", 5L),  Row(\"New Country 2\", \"Other Country 3\", 1L))\nval parallelizedRows \u003d spark.sparkContext.parallelize(newRows)\nval newDF \u003d spark.createDataFrame(parallelizedRows, schema)\ndf.union(newDF).where(\"count \u003d 1\").where($\"ORIGIN_COUNTRY_NAME\" \u003d!\u003d \"United States\").show() // get all of them and we\u0027ll see our new rows at the end",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:37:06.239",
+      "dateUpdated": "2018-07-24 05:32:47.047",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -4165,7 +4245,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -4207,7 +4288,7 @@
     {
       "text": "%md ## Sorting Rows\n\nWhen we sort the values in a DataFrame, we always want to sort with either the largest or smallest values at the top of a DataFrame. \nThere are two equivalent operations to do this sort and orderBy that work the exact same way. \nThey accept both column expressions and strings as well as multiple columns. \nThe default is to sort in ascending order: See the example below:",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:39:24.790",
+      "dateUpdated": "2018-07-24 05:32:47.082",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -4219,7 +4300,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -4235,7 +4317,7 @@
     {
       "text": "// in Scala\ndf.sort(\"count\").show(5)\ndf.orderBy(\"count\", \"DEST_COUNTRY_NAME\").show(5)\ndf.orderBy(col(\"count\"), col(\"DEST_COUNTRY_NAME\")).show(5)\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:40:01.105",
+      "dateUpdated": "2018-07-24 05:32:47.118",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -4247,7 +4329,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -4288,7 +4371,7 @@
     {
       "text": "%md To more explicitly specify sort direction, you need to use the asc and desc functions if operating on a column. \nThese allow you to specify the order in which a given column should be sorted:",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 11:41:13.039",
+      "dateUpdated": "2018-07-24 05:32:47.153",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -4300,7 +4383,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -4316,7 +4400,7 @@
     {
       "text": "\n// in Scala\nimport org.apache.spark.sql.functions.{desc, asc}\ndf.orderBy(expr(\"count desc\")).show(2)\ndf.orderBy(desc(\"count\"), asc(\"DEST_COUNTRY_NAME\")).show(2)",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 12:11:19.402",
+      "dateUpdated": "2018-07-24 05:32:47.189",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -4328,7 +4412,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -4368,7 +4453,7 @@
     {
       "text": "%sql\n-- in SQL\nSELECT * FROM dfTable ORDER BY count DESC, DEST_COUNTRY_NAME ASC LIMIT 2",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 12:11:56.183",
+      "dateUpdated": "2018-07-24 05:32:47.226",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -4410,7 +4495,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/sql",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -4449,7 +4535,7 @@
     {
       "text": "%md \n## Collecting Rows to the Driver\n\nSpark maintains the state of the cluster in the driver. There are times when you’ll want to collect some of your data to the driver in order to manipulate it on your local machine.\ncollect gets all data from the entire DataFrame, take selects the first N rows, and show prints out a number of rows nicely.",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 12:13:31.901",
+      "dateUpdated": "2018-07-24 05:32:47.261",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -4461,7 +4547,8 @@
           "completionKey": "TAB",
           "completionSupport": false
         },
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -4477,7 +4564,7 @@
     {
       "text": "// in Scala\nval collectDF \u003d df.limit(10)\ncollectDF.take(5) // take works with an Integer count\ncollectDF.show() // this prints it out nicely\ncollectDF.show(5, false)\ncollectDF.collect()\n",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 12:14:19.584",
+      "dateUpdated": "2018-07-24 05:32:47.298",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -4489,7 +4576,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -4531,7 +4619,7 @@
     {
       "text": "\n%md ## The End",
       "user": "anonymous",
-      "dateUpdated": "2018-07-23 12:47:09.617",
+      "dateUpdated": "2018-07-24 05:32:44.551",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -4543,7 +4631,8 @@
           "completionKey": "TAB",
           "completionSupport": true
         },
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
       },
       "settings": {
         "params": {},
