@@ -1,0 +1,417 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md  ## Problem Background\n\nYou are the data analyst at a large investment firm that is contemplating to invest in large \ninfrastructure projects in various parts of the world. Your task is to provide data driven advice to \nthe stakeholders, that will enable them to make a sound investment decisions. Failure to make \nthe best decision may result in large financial consequences and irreversible damage to the \ncompany reputation and brand. \n\nYour manager has instructed you to use the GDELT dataset, because the veracity of this data \nhas been established. You may useother datasets to support your analysis, however when you \ndo you must confirm the veracity of the data. \n\nCompare six countries over the last 2-year period.Factors to compare \n - Relationship with other countries\n - Political climate \n - Country security \n - General public sentiment in the countries",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 12:37:43.989",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eProblem Background\u003c/h2\u003e\n\u003cp\u003eYou are the data analyst at a large investment firm that is contemplating to invest in large\u003cbr/\u003einfrastructure projects in various parts of the world. Your task is to provide data driven advice to\u003cbr/\u003ethe stakeholders, that will enable them to make a sound investment decisions. Failure to make\u003cbr/\u003ethe best decision may result in large financial consequences and irreversible damage to the\u003cbr/\u003ecompany reputation and brand. \u003c/p\u003e\n\u003cp\u003eYour manager has instructed you to use the GDELT dataset, because the veracity of this data\u003cbr/\u003ehas been established. You may useother datasets to support your analysis, however when you\u003cbr/\u003edo you must confirm the veracity of the data. \u003c/p\u003e\n\u003cp\u003eCompare six countries over the last 2-year period.Factors to compare\u003cbr/\u003e - Relationship with other countries\u003cbr/\u003e - Political climate\u003cbr/\u003e - Country security\u003cbr/\u003e - General public sentiment in the countries\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532363494853_18299278",
+      "id": "20180723-123134_2037916355",
+      "dateCreated": "2018-07-23 12:31:34.853",
+      "dateStarted": "2018-07-23 12:37:14.897",
+      "dateFinished": "2018-07-23 12:37:14.905",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Expect Output: \n1. All source code that will enable your peers or external auditors to repeat your analysis(This notebook)\n2. All input and output data used and produced by your analysis\n   - it will be ok to just state which data you use and where the data can be accessed\n3. A presentation(use this notebook) for the executives. You should take into consideration that the executives are very busy\nso your presentation should be as clear and simple as possible while still presenting sufficient details.\n4. ",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 12:40:59.051",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532363866905_-764686456",
+      "id": "20180723-123746_301546053",
+      "dateCreated": "2018-07-23 12:37:46.905",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ### Instructions:\nPlease use this notebook to complete your project. You can write sql or scala code to perform your analytics. \nYou can also use the built in visualizations.When you are done, be sure to fill in your group members name. \nYou are required to submit the notebook. Please submit all notebooks to the course assignment moodle page.\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 12:25:27.822",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eInstructions:\u003c/h3\u003e\n\u003cp\u003ePlease use this notebook to complete your project. You can write sql or scala code to perform your analytics.\u003cbr/\u003eYou can also use the built in visualizations.When you are done, be sure to fill in your group members name.\u003cbr/\u003eYou are required to submit the notebook. Please submit all notebooks to the course assignment moodle page.\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532362761224_-1658551264",
+      "id": "20180723-121921_1667013208",
+      "dateCreated": "2018-07-23 12:19:21.224",
+      "dateStarted": "2018-07-23 12:25:18.651",
+      "dateFinished": "2018-07-23 12:25:18.654",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md Links \nhttp://data.gdeltproject.org/events/index.html\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 21:46:37.157",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532310387252_1021891010",
+      "id": "20180722-214627_717209122",
+      "dateCreated": "2018-07-22 21:46:27.252",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 12:19:17.303",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532362757303_-1949907757",
+      "id": "20180723-121917_1475401612",
+      "dateCreated": "2018-07-23 12:19:17.303",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 12:19:14.570",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532362754569_-2080402267",
+      "id": "20180723-121914_1003516167",
+      "dateCreated": "2018-07-23 12:19:14.569",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Task # 0: Import the required libraries",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 21:46:24.086",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eTask # 0: Import the required libraries\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532309864384_-554674487",
+      "id": "20180722-213744_252739513",
+      "dateCreated": "2018-07-22 21:37:44.384",
+      "dateStarted": "2018-07-22 21:41:17.537",
+      "dateFinished": "2018-07-22 21:41:17.543",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Task # 1 Create a manual schema for the datasets that you intend to load\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 21:41:27.904",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eTask # 1 Create a manual schema for the datasets that you intend to load\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532309940750_406988806",
+      "id": "20180722-213900_1113716415",
+      "dateCreated": "2018-07-22 21:39:00.750",
+      "dateStarted": "2018-07-22 21:41:27.915",
+      "dateFinished": "2018-07-22 21:41:27.937",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Task # 2 : Load the gdelt dataset(s), make sure to use the schemas you created in task #1 ",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 21:41:35.726",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eTask # 2 : Load the gdelt dataset(s), make sure to use the schemas you created in task #1\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532309206320_-91675452",
+      "id": "20180722-212646_1359751471",
+      "dateCreated": "2018-07-22 21:26:46.320",
+      "dateStarted": "2018-07-22 21:41:35.727",
+      "dateFinished": "2018-07-22 21:41:35.731",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Task # 2 : register a table(s) for the dataset(s) you load in Task # 1",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:17:25.406",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eTask # 2 : register a table(s) for the dataset(s) you load in Task # 1\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532309806425_1120709767",
+      "id": "20180722-213646_1342366702",
+      "dateCreated": "2018-07-22 21:36:46.425",
+      "dateStarted": "2018-07-22 21:41:42.278",
+      "dateFinished": "2018-07-22 21:41:42.284",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Task # 3: Convert all data types to thier correct types, for examples dates should be dates strings should be strings etc",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:17:34.365",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eTask # 3: Convert all data types to thier correct types, for examples dates should be dates strings should be strings etc\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532309853928_1230596589",
+      "id": "20180722-213733_830943018",
+      "dateCreated": "2018-07-22 21:37:33.928",
+      "dateStarted": "2018-07-23 11:17:34.365",
+      "dateFinished": "2018-07-23 11:17:34.368",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Task # 3: \n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 12:20:27.862",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532359042016_-689755007",
+      "id": "20180723-111722_793898267",
+      "dateCreated": "2018-07-23 11:17:22.016",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "project_1_gdelt_analytics",
+  "id": "2DKJCNSV7",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "md:shared_process": [],
+    "spark:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}

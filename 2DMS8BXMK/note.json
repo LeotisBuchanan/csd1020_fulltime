@@ -1,0 +1,4572 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md ## Course Name:  CSDA 1020 – Big Data Tools\n## Day #: 1\n## Module Name:  Apache Hadoop and Spark",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 13:07:28.348",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eCourse Name: CSDA 1020 – Big Data Tools\u003c/h2\u003e\n\u003ch2\u003eDay #: 1\u003c/h2\u003e\n\u003ch2\u003eModule Name: Apache Hadoop and Spark\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532364964629_-611113979",
+      "id": "20180723-125604_1509127546",
+      "dateCreated": "2018-07-23 12:56:04.629",
+      "dateStarted": "2018-07-23 13:07:28.348",
+      "dateFinished": "2018-07-23 13:07:28.350",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\u003cp align\u003d\"center\"\u003e\n  \u003cb\u003e\u003ch1\u003eIntroduction to Apache Spark\u003c/h1\u003e\u003c/b\u003e\n  \u003cimg src\u003d\"https://spark.apache.org/images/spark-logo-trademark.png\"\u003e\n  \u003cimg src\u003d\"https://learn.continue.yorku.ca/theme/scs/pix/york-logo.png\"\u003e\n\u003c/p\u003e",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 13:07:17.784",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp align\u003d\"center\"\u003e\n  \u003cb\u003e\u003ch1\u003eIntroduction to Apache Spark\u003c/h1\u003e\u003c/b\u003e\n  \u003cimg src\u003d\"https://spark.apache.org/images/spark-logo-trademark.png\"\u003e\n  \u003cimg src\u003d\"https://learn.continue.yorku.ca/theme/scs/pix/york-logo.png\"\u003e\n\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532365253269_-1131225996",
+      "id": "20180723-130053_935535631",
+      "dateCreated": "2018-07-23 13:00:53.269",
+      "dateStarted": "2018-07-23 13:07:17.784",
+      "dateFinished": "2018-07-23 13:07:17.786",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Links \n\n\u003cp\u003e\u003ca href\u003d\"https://spark.apache.org/docs/latest/api/sql/index.html\" target\u003d\"_blank\"\u003eSpark SQL doc\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href\u003d\"http://data.gdeltproject.org/documentation/GDELT-Event_Codebook-V2.0.pdf\" target\u003d\"_blank\"\u003eGDELT events doc\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href\u003d\"http://data.gdeltproject.org/gdeltv2/masterfilelist.txt\" target\u003d\"_blank\"\u003eGDELT Masterfiles\u003c/a\u003e\u003c/p\u003e\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 13:12:23.394",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eLinks\u003c/h2\u003e\n\u003cp\u003e\u003ca href\u003d\"https://spark.apache.org/docs/latest/api/sql/index.html\" target\u003d\"_blank\"\u003eSpark SQL doc\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href\u003d\"http://data.gdeltproject.org/documentation/GDELT-Event_Codebook-V2.0.pdf\" target\u003d\"_blank\"\u003eGDELT events doc\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href\u003d\"http://data.gdeltproject.org/gdeltv2/masterfilelist.txt\" target\u003d\"_blank\"\u003eGDELT Masterfiles\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532305779703_42680597",
+      "id": "20180722-202939_1955743710",
+      "dateCreated": "2018-07-22 20:29:39.703",
+      "dateStarted": "2018-07-23 13:12:23.394",
+      "dateFinished": "2018-07-23 13:12:23.397",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md # Apache Spark ",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 20:29:36.679",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eApache Spark\u003c/h1\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532293636363_1405463308",
+      "id": "20180722-170716_1445441319",
+      "dateCreated": "2018-07-22 17:07:16.363",
+      "dateStarted": "2018-07-22 17:08:34.096",
+      "dateFinished": "2018-07-22 17:08:34.099",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md We need to import the libraries\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 17:52:28.560",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532296326704_-1697813207",
+      "id": "20180722-175206_282773407",
+      "dateCreated": "2018-07-22 17:52:06.704",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "import org.apache.spark.sql.{Dataset, DataFrame, SparkSession, Row}\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 18:42:45.555",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "import org.apache.spark.sql.{Dataset, DataFrame, SparkSession, Row}\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532296348524_-249913175",
+      "id": "20180722-175228_1178742176",
+      "dateCreated": "2018-07-22 17:52:28.524",
+      "dateStarted": "2018-07-22 18:42:45.680",
+      "dateFinished": "2018-07-22 18:42:52.879",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ### The Spark Session \nThis is a driver process that allows you to your Spark Application . The SparkSession instance is the way Spark executes user-defined manipulations across the cluster. \nEvery spark application must have a spark session. When you are using zeppelin or the spark-shell from the command line a spark session object is provided. typing\nspark and running the cell will print the hashcode for the provided spark session.",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 13:12:52.758",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eThe Spark Session\u003c/h3\u003e\n\u003cp\u003eThis is a driver process that allows you to your Spark Applicatio . The SparkSession instance is the way Spark executes user-defined manipulations across the cluster.\u003cbr/\u003eEvery spark application must have a spark session. When you are using zeppelin or the spark-shell from the command line a spark session object is provided. typing\u003cbr/\u003espark and running the cell will print the hashcode for the provided spark session.\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532294774556_-246098675",
+      "id": "20180722-172614_850846444",
+      "dateCreated": "2018-07-22 17:26:14.556",
+      "dateStarted": "2018-07-22 17:33:23.159",
+      "dateFinished": "2018-07-22 17:33:23.163",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## DataFrames\n\nA DataFrame is the most common Structured API and simply represents a table of data with rows and columns. The list that defines the columns and the types within those columns is called the schema.\nYou can think of a DataFrame as a spreadsheet with named columns. A spreadsheet sits on one computer in one specific location, whereas a Spark DataFrame can span thousands of computers.\nThe reason for putting the data on more than one is because the data is too large to fit on one machine or it would simply take too long to perform that computation on one machine.",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 17:42:37.146",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eDataFrames\u003c/h2\u003e\n\u003cp\u003eA DataFrame is the most common Structured API and simply represents a table of data with rows and columns. The list that defines the columns and the types within those columns is called the schema.\u003cbr/\u003eYou can think of a DataFrame as a spreadsheet with named columns. A spreadsheet sits on one computer in one specific location, whereas a Spark DataFrame can span thousands of computers.\u003cbr/\u003eThe reason for putting the data on more than one is because the data is too large to fit on one machine or it would simply take too long to perform that computation on one machine.\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532295188573_-1541391851",
+      "id": "20180722-173308_1110968012",
+      "dateCreated": "2018-07-22 17:33:08.573",
+      "dateStarted": "2018-07-22 17:42:37.146",
+      "dateFinished": "2018-07-22 17:42:37.152",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ### Lets create a dataframe. \n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 17:50:02.712",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532295292645_100603836",
+      "id": "20180722-173452_710942362",
+      "dateCreated": "2018-07-22 17:34:52.645",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val base_path\u003d\"file:///home/yard\"\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 20:40:43.550",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "base_path: String \u003d file:///home/yard\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532306409052_-1317176729",
+      "id": "20180722-204009_2093834993",
+      "dateCreated": "2018-07-22 20:40:09.052",
+      "dateStarted": "2018-07-22 20:40:43.566",
+      "dateFinished": "2018-07-22 20:40:43.675",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "\nval data_path\u003d\"file:///home/yard/data/flight-data/csv/2015-summary.csv\"\nval flightData2015 \u003d spark.read.option(\"inferSchema\", \"true\").option(\"header\", \"true\").csv(data_path)",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 18:43:06.091",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "data_path: String \u003d file:///home/yard/data/flight-data/csv/2015-summary.csv\nflightData2015: org.apache.spark.sql.DataFrame \u003d [DEST_COUNTRY_NAME: string, ORIGIN_COUNTRY_NAME: string ... 1 more field]\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d0",
+            "http://192.168.0.15:4040/jobs/job?id\u003d1"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532296151905_-1540481768",
+      "id": "20180722-174911_657022667",
+      "dateCreated": "2018-07-22 17:49:11.905",
+      "dateStarted": "2018-07-22 18:43:06.135",
+      "dateFinished": "2018-07-22 18:43:08.497",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "user": "anonymous",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532305998625_9568229",
+      "id": "20180722-203318_1984476731",
+      "dateCreated": "2018-07-22 20:33:18.625",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Partitions\n\nTo allow every executor to perform work in parallel, Spark breaks up the data into chunks called partitions.\nA partition is a collection of rows that sit on one physical machine in your cluster. \nA DataFrame’s partitions represent how the data is physically distributed across the cluster of machines during execution.\nIf you have one partition, Spark will have a parallelism of only one, even if you have thousands of executors. \nIf you have many partitions but only one executor, Spark will still have a parallelism of only one because there is only one computation resource.\n\n\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 20:03:12.794",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003ePartitions\u003c/h2\u003e\n\u003cp\u003eTo allow every executor to perform work in parallel, Spark breaks up the data into chunks called partitions.\u003cbr/\u003eA partition is a collection of rows that sit on one physical machine in your cluster.\u003cbr/\u003eA DataFrame’s partitions represent how the data is physically distributed across the cluster of machines during execution.\u003cbr/\u003eIf you have one partition, Spark will have a parallelism of only one, even if you have thousands of executors.\u003cbr/\u003eIf you have many partitions but only one executor, Spark will still have a parallelism of only one because there is only one computation resource.\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532303916737_-827329014",
+      "id": "20180722-195836_1657161004",
+      "dateCreated": "2018-07-22 19:58:36.737",
+      "dateStarted": "2018-07-22 20:03:12.795",
+      "dateFinished": "2018-07-22 20:03:14.784",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## DataFrame Transformations\nIn Spark, the core data structures are immutable, meaning they cannot be changed after they’re created. \nTo “change” a DataFrame, you need to instruct Spark how you would like to modify it to do what you want. \nThese instructions are called transformations. Let’s perform a simple transformation to find all even numbers in dataframe:\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 20:36:46.847",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eDataFrame Transformations\u003c/h2\u003e\n\u003cp\u003eIn Spark, the core data structures are immutable, meaning they cannot be changed after they’re created.\u003cbr/\u003eTo “change” a DataFrame, you need to instruct Spark how you would like to modify it to do what you want.\u003cbr/\u003eThese instructions are called transformations. Let’s perform a simple transformation to find all even numbers in dataframe:\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532304246973_60339081",
+      "id": "20180722-200406_1815872888",
+      "dateCreated": "2018-07-22 20:04:06.973",
+      "dateStarted": "2018-07-22 20:36:46.848",
+      "dateFinished": "2018-07-22 20:36:46.851",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val myRange \u003d spark.range(1000).toDF(\"number\")\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 20:06:59.470",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "myRange: org.apache.spark.sql.DataFrame \u003d [number: bigint]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532304363134_375720465",
+      "id": "20180722-200603_1405236837",
+      "dateCreated": "2018-07-22 20:06:03.134",
+      "dateStarted": "2018-07-22 20:06:59.484",
+      "dateFinished": "2018-07-22 20:06:59.787",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val divisBy2 \u003d myRange.where(\"number % 2 \u003d 0\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 20:07:03.648",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "divisBy2: org.apache.spark.sql.Dataset[org.apache.spark.sql.Row] \u003d [number: bigint]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532304386009_261738100",
+      "id": "20180722-200626_1662129740",
+      "dateCreated": "2018-07-22 20:06:26.009",
+      "dateStarted": "2018-07-22 20:07:03.665",
+      "dateFinished": "2018-07-22 20:07:03.936",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "divisBy2.show",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 20:09:44.697",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532304580211_-1470456053",
+      "id": "20180722-200940_1212044235",
+      "dateCreated": "2018-07-22 20:09:40.211",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Basic Structured Operations\nThese operations allow us to manipulate a dataframe and the data within them. Dataframe have schemas. \nSchemas define the name as well as the type of data in each column",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 20:42:11.411",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eBasic Structured Operations\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532306213038_512511460",
+      "id": "20180722-203653_393373996",
+      "dateCreated": "2018-07-22 20:36:53.038",
+      "dateStarted": "2018-07-22 20:37:16.676",
+      "dateFinished": "2018-07-22 20:37:16.678",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Let’s create a DataFrame with which we can work:\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 20:39:20.936",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532306352211_-1157512333",
+      "id": "20180722-203912_758042470",
+      "dateCreated": "2018-07-22 20:39:12.211",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "\nval df \u003d spark.read.format(\"json\").load(s\"$base_path/data/flight-data/json/2015-summary.json\")",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 20:41:10.641",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "df: org.apache.spark.sql.DataFrame \u003d [DEST_COUNTRY_NAME: string, ORIGIN_COUNTRY_NAME: string ... 1 more field]\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d3"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532306360883_-974645288",
+      "id": "20180722-203920_1425493191",
+      "dateCreated": "2018-07-22 20:39:20.883",
+      "dateStarted": "2018-07-22 20:41:10.667",
+      "dateFinished": "2018-07-22 20:41:10.969",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md we can view a dataframe schema using the following command:",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 20:43:02.145",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532306551386_1906080398",
+      "id": "20180722-204231_765253127",
+      "dateCreated": "2018-07-22 20:42:31.386",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "df.printSchema()",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 20:43:16.951",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "root\n |-- DEST_COUNTRY_NAME: string (nullable \u003d true)\n |-- ORIGIN_COUNTRY_NAME: string (nullable \u003d true)\n |-- count: long (nullable \u003d true)\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532306582098_1021079129",
+      "id": "20180722-204302_1980909249",
+      "dateCreated": "2018-07-22 20:43:02.098",
+      "dateStarted": "2018-07-22 20:43:16.969",
+      "dateFinished": "2018-07-22 20:43:17.104",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Schemas\nA schema defines the column names and types of a DataFrame.\nWe can either let a data source define the schema (called schema-on-read) or we can define it explicitly ourselves",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 20:56:00.425",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eSchemas\u003c/h2\u003e\n\u003cp\u003eA schema defines the column names and types of a DataFrame.\u003cbr/\u003eWe can either let a data source define the schema (called schema-on-read) or we can define it explicitly ourselves\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532307313324_-81204192",
+      "id": "20180722-205513_237899569",
+      "dateCreated": "2018-07-22 20:55:13.324",
+      "dateStarted": "2018-07-22 20:55:57.016",
+      "dateFinished": "2018-07-22 20:55:57.023",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nLet\u0027s start with a simple file. This is flight data from the United States Bureau of Transportation statistics\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 21:19:02.439",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532307363677_-871099310",
+      "id": "20180722-205603_120781100",
+      "dateCreated": "2018-07-22 20:56:03.677",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "spark.read.format(\"json\").load(s\"$base_path/data/flight-data/json/2015-summary.json\").schema\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 21:19:55.631",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res17: org.apache.spark.sql.types.StructType \u003d StructType(StructField(DEST_COUNTRY_NAME,StringType,true), StructField(ORIGIN_COUNTRY_NAME,StringType,true), StructField(count,LongType,true))\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d5"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532308742369_684309267",
+      "id": "20180722-211902_329693283",
+      "dateCreated": "2018-07-22 21:19:02.369",
+      "dateStarted": "2018-07-22 21:19:55.648",
+      "dateFinished": "2018-07-22 21:19:55.858",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md A schema is a StructType made up of a number of fields, StructFields, that have a name, type, \na Boolean flag which specifies whether that column can contain missing or null values, and, \nfinally, users can optionally specify associated metadata with that column. The metadata is \na way of storing information about this column",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 21:50:38.331",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eA schema is a StructType made up of a number of fields, StructFields, that have a name, type,\u003cbr/\u003ea Boolean flag which specifies whether that column can contain missing or null values, and,\u003cbr/\u003efinally, users can optionally specify associated metadata with that column. The metadata is\u003cbr/\u003ea way of storing information about this column\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532308831783_-641705936",
+      "id": "20180722-212031_983713339",
+      "dateCreated": "2018-07-22 21:20:31.783",
+      "dateStarted": "2018-07-22 21:21:16.104",
+      "dateFinished": "2018-07-22 21:21:16.107",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md Schemas can contain other StructTypes ( see: \u003ca href\u003d\"https://docs.databricks.com/spark/latest/dataframes-datasets/complex-nested-data.html\" target\u003d\"_blank\"\u003eSpark’s complex types \u003c/a\u003e)  \nIf the types in the data (at runtime) do not match the schema, Spark will throw an error. \nThe example that below shows how to create and enforce a specific schema on a DataFrame",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 21:51:59.376",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eSchemas can contain other StructTypes ( see: \u003ca href\u003d\"https://docs.databricks.com/spark/latest/dataframes-datasets/complex-nested-data.html\" target\u003d\"_blank\"\u003eSpark’s complex types \u003c/a\u003e)\u003cbr/\u003eIf the types in the data (at runtime) do not match the schema, Spark will throw an error. The example that follows shows how to create and enforce a specific schema on a DataFrame\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532304431215_912409779",
+      "id": "20180722-200711_1591421905",
+      "dateCreated": "2018-07-22 20:07:11.215",
+      "dateStarted": "2018-07-22 21:51:40.562",
+      "dateFinished": "2018-07-22 21:51:40.565",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "\nimport org.apache.spark.sql.types.{StructField, StructType, StringType, LongType}\nimport org.apache.spark.sql.types.Metadata\n\nval myManualSchema \u003d StructType(Array(StructField(\"DEST_COUNTRY_NAME\", StringType, true),\nStructField(\"ORIGIN_COUNTRY_NAME\", StringType, true), \nStructField(\"count\", LongType, false, \nMetadata.fromJson(\"{\\\"hello\\\":\\\"world\\\"}\"))))\n\nval df \u003d spark.read.format(\"json\").schema(myManualSchema)  .load(s\"$base_path/data/flight-data/json/2015-summary.json\")",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 21:23:12.379",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "import org.apache.spark.sql.types.{StructField, StructType, StringType, LongType}\nimport org.apache.spark.sql.types.Metadata\nmyManualSchema: org.apache.spark.sql.types.StructType \u003d StructType(StructField(DEST_COUNTRY_NAME,StringType,true), StructField(ORIGIN_COUNTRY_NAME,StringType,true), StructField(count,LongType,false))\ndf: org.apache.spark.sql.DataFrame \u003d [DEST_COUNTRY_NAME: string, ORIGIN_COUNTRY_NAME: string ... 1 more field]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532308884153_1329464765",
+      "id": "20180722-212124_1629179164",
+      "dateCreated": "2018-07-22 21:21:24.153",
+      "dateStarted": "2018-07-22 21:23:12.402",
+      "dateFinished": "2018-07-22 21:23:12.843",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Columns and Expressions\n\nColumns in Spark are similar to columns in a spreadsheet, R dataframe, or pandas DataFrame. \nYou can select, manipulate, and remove columns from DataFrames and these operations are represented as expressions.\nTo Spark, columns are logical constructions that simply represent a value computed on a per-record basis by means of an expression.\nThis means that to have a real value for a column, we need to have a row; and to have a row, we need to have a DataFrame. \nYou cannot manipulate an individual column outside the context of a DataFrame; \nyou must use Spark transformations within a DataFrame to modify the contents of a column.Columns\nThere are a lot of different ways to construct and refer to columns but the two simplest ways are by using the col or column functions. \nTo use either of these functions, you pass in a column name:",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 21:54:34.085",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eColumns and Expressions\u003c/h2\u003e\n\u003cp\u003eColumns in Spark are similar to columns in a spreadsheet, R dataframe, or pandas DataFrame.\u003cbr/\u003eYou can select, manipulate, and remove columns from DataFrames and these operations are represented as expressions.\u003cbr/\u003eTo Spark, columns are logical constructions that simply represent a value computed on a per-record basis by means of an expression.\u003cbr/\u003eThis means that to have a real value for a column, we need to have a row; and to have a row, we need to have a DataFrame.\u003cbr/\u003eYou cannot manipulate an individual column outside the context of a DataFrame;\u003cbr/\u003eyou must use Spark transformations within a DataFrame to modify the contents of a column.Columns\u003cbr/\u003eThere are a lot of different ways to construct and refer to columns but the two simplest ways are by using the col or column functions.\u003cbr/\u003eTo use either of these functions, you pass in a column name:\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532310778399_-1312313794",
+      "id": "20180722-215258_643366237",
+      "dateCreated": "2018-07-22 21:52:58.399",
+      "dateStarted": "2018-07-22 21:54:23.902",
+      "dateFinished": "2018-07-22 21:54:23.907",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Accessing columns in a dataframe\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 21:57:45.063",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eAccessing columns in a dataframe\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532310876755_1492780507",
+      "id": "20180722-215436_25009366",
+      "dateCreated": "2018-07-22 21:54:36.755",
+      "dateStarted": "2018-07-22 21:57:40.931",
+      "dateFinished": "2018-07-22 21:57:40.932",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md If you need to refer to a specific DataFrame’s column, you can use the col method on the specific DataFrame. \nThis can be useful when you are performing a join and need to refer to a specific column in one DataFrame that might share\na name with another column in the joined DataFrame",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 21:59:14.022",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eIf you need to refer to a specific DataFrame’s column,\u003cbr/\u003eyou can use the col method on the specific DataFrame.\u003cbr/\u003eThis can be useful when you are performing a join and need\u003cbr/\u003eto refer to a specific column in one DataFrame that might share\u003cbr/\u003ea name with another column in the joined DataFrame\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532311068858_407351959",
+      "id": "20180722-215748_237838522",
+      "dateCreated": "2018-07-22 21:57:48.858",
+      "dateStarted": "2018-07-22 21:58:55.194",
+      "dateFinished": "2018-07-22 21:58:55.197",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "\nval df2 \u003d df.select( df.col(\"count\") - 1 )\n\ndf2.show\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:05:01.726",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "df2: org.apache.spark.sql.DataFrame \u003d [(count - 1): bigint]\n+-----------+\n|(count - 1)|\n+-----------+\n|         14|\n|          0|\n|        343|\n|         14|\n|         61|\n|          0|\n|         61|\n|        587|\n|         39|\n|          0|\n|        324|\n|         38|\n|         63|\n|          0|\n|         40|\n|         29|\n|          5|\n|          3|\n|        229|\n|          0|\n+-----------+\nonly showing top 20 rows\n\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d8"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532311168059_244403264",
+      "id": "20180722-215928_14814522",
+      "dateCreated": "2018-07-22 21:59:28.060",
+      "dateStarted": "2018-07-22 22:05:01.772",
+      "dateFinished": "2018-07-22 22:05:02.032",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "df.columns",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:05:59.449",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res41: Array[String] \u003d Array(DEST_COUNTRY_NAME, ORIGIN_COUNTRY_NAME, count)\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532311548014_987711138",
+      "id": "20180722-220548_1232663234",
+      "dateCreated": "2018-07-22 22:05:48.014",
+      "dateStarted": "2018-07-22 22:05:59.472",
+      "dateFinished": "2018-07-22 22:05:59.566",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ### Records and Rows\nIn Spark, each row in a DataFrame is a single record. Spark represents this record as an object of type Row. \nSpark manipulates Row objects using column expressions in order to produce usable values. \nRow objects internally represent arrays of bytes. \n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:07:55.206",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eRecords and Rows\u003c/h3\u003e\n\u003cp\u003eIn Spark, each row in a DataFrame is a single record. Spark represents this record as an object of type Row.\u003cbr/\u003eSpark manipulates Row objects using column expressions in order to produce usable values.\u003cbr/\u003eRow objects internally represent arrays of bytes.\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532311599958_-891037916",
+      "id": "20180722-220639_143205620",
+      "dateCreated": "2018-07-22 22:06:39.959",
+      "dateStarted": "2018-07-22 22:07:35.686",
+      "dateFinished": "2018-07-22 22:07:35.689",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "\ndf.first()",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:08:04.785",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res43: org.apache.spark.sql.Row \u003d [United States,Romania,15]\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d9"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532311677594_-1938029554",
+      "id": "20180722-220757_31318517",
+      "dateCreated": "2018-07-22 22:07:57.594",
+      "dateStarted": "2018-07-22 22:08:04.805",
+      "dateFinished": "2018-07-22 22:08:04.947",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "df.take(2)",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:08:22.441",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res45: Array[org.apache.spark.sql.Row] \u003d Array([United States,Romania,15], [United States,Croatia,1])\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d10"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532311695522_1952191036",
+      "id": "20180722-220815_1080885133",
+      "dateCreated": "2018-07-22 22:08:15.522",
+      "dateStarted": "2018-07-22 22:08:22.492",
+      "dateFinished": "2018-07-22 22:08:22.627",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md # DataFrame Transformations\n\nWhen working with individual DataFrames there are some fundamental objectives.\nThese break down into several core operations,\n1. We can add rows or columns\n2. We can remove rows or columns\n3. We can transform a row into a column (or vice versa)\n4. We can change the order of rows based on the values in columns",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:12:08.197",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eDataFrame Transformations\u003c/h1\u003e\n\u003cp\u003eWhen working with individual DataFrames there are some fundamental objectives.\u003cbr/\u003eThese break down into several core operations,\u003cbr/\u003e1. We can add rows or columns\u003cbr/\u003e2. We can remove rows or columns\u003cbr/\u003e3. We can transform a row into a column (or vice versa)\u003cbr/\u003e4. We can change the order of rows based on the values in columns\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532311724873_-546793799",
+      "id": "20180722-220844_1848108609",
+      "dateCreated": "2018-07-22 22:08:44.873",
+      "dateStarted": "2018-07-22 22:10:08.731",
+      "dateFinished": "2018-07-22 22:10:08.733",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Creating DataFrames\nLet create a sample dataframe to play with\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:12:46.569",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532311930669_-1587044701",
+      "id": "20180722-221210_152606083",
+      "dateCreated": "2018-07-22 22:12:10.669",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "//load the data from file\nval df \u003d spark.read.format(\"json\").load(s\"$base_path/data/flight-data/json/2015-summary.json\")\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:17:31.945",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "df: org.apache.spark.sql.DataFrame \u003d [DEST_COUNTRY_NAME: string, ORIGIN_COUNTRY_NAME: string ... 1 more field]\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d11"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532311966498_-297991065",
+      "id": "20180722-221246_151192572",
+      "dateCreated": "2018-07-22 22:12:46.498",
+      "dateStarted": "2018-07-22 22:17:31.962",
+      "dateFinished": "2018-07-22 22:17:32.142",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "//create a table\ndf.createOrReplaceTempView(\"dfTable\")\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:17:35.638",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1532311994434_1611251401",
+      "id": "20180722-221314_780491298",
+      "dateCreated": "2018-07-22 22:13:14.434",
+      "dateStarted": "2018-07-22 22:17:35.659",
+      "dateFinished": "2018-07-22 22:17:35.771",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ### select and selectExpr\nselect and selectExpr allow you to do the DataFrame equivalent of SQL queries on a table of data:",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:21:20.590",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eselect and selectExpr\u003c/h3\u003e\n\u003cp\u003eselect and selectExpr allow you to do the DataFrame equivalent of SQL queries on a table of data:\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532312358883_565743641",
+      "id": "20180722-221918_520865473",
+      "dateCreated": "2018-07-22 22:19:18.883",
+      "dateStarted": "2018-07-22 22:21:13.531",
+      "dateFinished": "2018-07-22 22:21:13.532",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\n\nSELECT * FROM dfTable\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:23:07.318",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "DEST_COUNTRY_NAME": "string",
+                      "ORIGIN_COUNTRY_NAME": "string",
+                      "count": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "DEST_COUNTRY_NAME\tORIGIN_COUNTRY_NAME\tcount\nUnited States\tRomania\t15\nUnited States\tCroatia\t1\nUnited States\tIreland\t344\nEgypt\tUnited States\t15\nUnited States\tIndia\t62\nUnited States\tSingapore\t1\nUnited States\tGrenada\t62\nCosta Rica\tUnited States\t588\nSenegal\tUnited States\t40\nMoldova\tUnited States\t1\nUnited States\tSint Maarten\t325\nUnited States\tMarshall Islands\t39\nGuyana\tUnited States\t64\nMalta\tUnited States\t1\nAnguilla\tUnited States\t41\nBolivia\tUnited States\t30\nUnited States\tParaguay\t6\nAlgeria\tUnited States\t4\nTurks and Caicos Islands\tUnited States\t230\nUnited States\tGibraltar\t1\nSaint Vincent and the Grenadines\tUnited States\t1\nItaly\tUnited States\t382\nUnited States\tFederated States of Micronesia\t69\nUnited States\tRussia\t161\nPakistan\tUnited States\t12\nUnited States\tNetherlands\t660\nIceland\tUnited States\t181\nMarshall Islands\tUnited States\t42\nLuxembourg\tUnited States\t155\nHonduras\tUnited States\t362\nThe Bahamas\tUnited States\t955\nUnited States\tSenegal\t42\nEl Salvador\tUnited States\t561\nSamoa\tUnited States\t25\nUnited States\tAngola\t13\nSwitzerland\tUnited States\t294\nUnited States\tAnguilla\t38\nSint Maarten\tUnited States\t325\nHong Kong\tUnited States\t332\nTrinidad and Tobago\tUnited States\t211\nLatvia\tUnited States\t19\nUnited States\tEcuador\t300\nSuriname\tUnited States\t1\nMexico\tUnited States\t7140\nUnited States\tCyprus\t1\nEcuador\tUnited States\t268\nUnited States\tPortugal\t134\nUnited States\tCosta Rica\t608\nUnited States\tGuatemala\t318\nUnited States\tSuriname\t34\nColombia\tUnited States\t873\nUnited States\tCape Verde\t14\nUnited States\tJamaica\t712\nNorway\tUnited States\t121\nUnited States\tMalaysia\t3\nUnited States\tMorocco\t19\nThailand\tUnited States\t3\nUnited States\tSamoa\t25\nVenezuela\tUnited States\t290\nUnited States\tPalau\t31\nUnited States\tVenezuela\t246\nPanama\tUnited States\t510\nAntigua and Barbuda\tUnited States\t126\nUnited States\tChile\t185\nMorocco\tUnited States\t15\nUnited States\tFinland\t28\nAzerbaijan\tUnited States\t21\nUnited States\tGreece\t23\nUnited States\tThe Bahamas\t986\nNew Zealand\tUnited States\t111\nLiberia\tUnited States\t2\nUnited States\tHong Kong\t414\nHungary\tUnited States\t2\nUnited States\tChina\t920\nUnited States\tVietnam\t2\nBurkina Faso\tUnited States\t1\nSweden\tUnited States\t118\nUnited States\tKuwait\t28\nUnited States\tDominican Republic\t1420\nUnited States\tEgypt\t12\nIsrael\tUnited States\t134\nUnited States\tUnited States\t370002\nEthiopia\tUnited States\t13\nUnited States\tLuxembourg\t134\nUnited States\tPoland\t33\nMartinique\tUnited States\t44\nUnited States\tSaint Barthelemy\t41\nSaint Barthelemy\tUnited States\t39\nBarbados\tUnited States\t154\nUnited States\tTurkey\t129\nDjibouti\tUnited States\t1\nUnited States\tAzerbaijan\t21\nUnited States\tEstonia\t1\nGermany\tUnited States\t1468\nUnited States\tSouth Korea\t827\nUnited States\tEl Salvador\t508\nIreland\tUnited States\t335\nUnited States\tHungary\t3\nZambia\tUnited States\t1\nMalaysia\tUnited States\t2\nUnited States\tEthiopia\t12\nUnited States\tPanama\t465\nUnited States\tAruba\t342\nUnited States\tThailand\t4\nUnited States\tTurks and Caicos Islands\t236\nCroatia\tUnited States\t2\nUnited States\tPakistan\t12\nCyprus\tUnited States\t1\nUnited States\tHonduras\t407\nFiji\tUnited States\t24\nQatar\tUnited States\t108\nSaint Kitts and Nevis\tUnited States\t139\nKuwait\tUnited States\t32\nTaiwan\tUnited States\t266\nHaiti\tUnited States\t226\nCanada\tUnited States\t8399\nFederated States of Micronesia\tUnited States\t69\nUnited States\tLiberia\t2\nJamaica\tUnited States\t666\nUnited States\tMalta\t2\nDominican Republic\tUnited States\t1353\nJapan\tUnited States\t1548\nUnited States\tLithuania\t1\nFinland\tUnited States\t26\nUnited States\tGuadeloupe\t59\nUnited States\tUkraine\t13\nUnited States\tFrance\t952\nUnited States\tNorway\t115\nAruba\tUnited States\t346\nFrench Guiana\tUnited States\t5\nUnited States\tKiribati\t35\nIndia\tUnited States\t61\nBritish Virgin Islands\tUnited States\t107\nBrazil\tUnited States\t853\nUnited States\tGermany\t1336\nUnited States\tNew Zealand\t74\nFrench Polynesia\tUnited States\t43\nUnited Arab Emirates\tUnited States\t320\nSingapore\tUnited States\t3\nUnited States\tMexico\t7187\nUnited States\tSweden\t119\nNetherlands\tUnited States\t776\nUnited States\tMartinique\t43\nUnited States\tUnited Arab Emirates\t313\nUnited States\tBulgaria\t1\nDenmark\tUnited States\t153\nChina\tUnited States\t772\nUnited States\tNicaragua\t201\nUnited States\tPhilippines\t126\nUnited States\tGeorgia\t1\nUnited States\tBelgium\t228\nCayman Islands\tUnited States\t314\nArgentina\tUnited States\t180\nPeru\tUnited States\t279\nSouth Africa\tUnited States\t36\nUnited States\tIceland\t202\nUnited States\tArgentina\t141\nSpain\tUnited States\t420\nBermuda\tUnited States\t183\nUnited States\tNigeria\t50\nUnited States\tAustria\t63\nUnited States\tBonaire, Sint Eustatius, and Saba\t59\nKiribati\tUnited States\t26\nSaudi Arabia\tUnited States\t83\nCzech Republic\tUnited States\t13\nUnited States\tIsrael\t127\nBelgium\tUnited States\t259\nUnited States\tSaint Lucia\t136\nUnited States\tBahrain\t1\nUnited States\tBritish Virgin Islands\t80\nCuracao\tUnited States\t90\nGeorgia\tUnited States\t2\nUnited States\tDenmark\t152\nUnited States\tGuyana\t63\nPhilippines\tUnited States\t134\nGrenada\tUnited States\t53\nCape Verde\tUnited States\t20\nCote d\u0027Ivoire\tUnited States\t1\nUkraine\tUnited States\t14\nUnited States\tPapua New Guinea\t1\nRussia\tUnited States\t176\nUnited States\tSaudi Arabia\t70\nGuatemala\tUnited States\t397\nSaint Lucia\tUnited States\t123\nParaguay\tUnited States\t60\nUnited States\tCuracao\t83\nKosovo\tUnited States\t1\nUnited States\tTaiwan\t235\nTunisia\tUnited States\t3\nUnited States\tSouth Africa\t40\nNiger\tUnited States\t2\nTurkey\tUnited States\t138\nUnited Kingdom\tUnited States\t2025\nRomania\tUnited States\t14\nUnited States\tGreenland\t4\nPapua New Guinea\tUnited States\t3\nUnited States\tSpain\t442\nIraq\tUnited States\t1\nUnited States\tItaly\t438\nCuba\tUnited States\t466\nUnited States\tSwitzerland\t305\nDominica\tUnited States\t20\nUnited States\tJapan\t1496\nPortugal\tUnited States\t127\nUnited States\tBrazil\t619\nBahrain\tUnited States\t19\nUnited States\tPeru\t337\nIndonesia\tUnited States\t1\nUnited States\tBelize\t193\nUnited States\tUnited Kingdom\t1970\nBelize\tUnited States\t188\nUnited States\tGhana\t20\nUnited States\tIndonesia\t2\nUnited States\tFiji\t25\nUnited States\tCanada\t8483\nUnited States\tAntigua and Barbuda\t117\nUnited States\tFrench Polynesia\t40\nNicaragua\tUnited States\t179\nUnited States\tLatvia\t15\nUnited States\tDominica\t27\nUnited States\tCzech Republic\t12\nUnited States\tAustralia\t258\nUnited States\tCook Islands\t13\nAustria\tUnited States\t62\nJordan\tUnited States\t44\nPalau\tUnited States\t30\nSouth Korea\tUnited States\t1048\nAngola\tUnited States\t15\nGhana\tUnited States\t18\nNew Caledonia\tUnited States\t1\nGuadeloupe\tUnited States\t56\nFrance\tUnited States\t935\nPoland\tUnited States\t32\nNigeria\tUnited States\t59\nUnited States\tUruguay\t13\nGreenland\tUnited States\t2\nUnited States\tBermuda\t193\nChile\tUnited States\t174\nUnited States\tCuba\t478\nUnited States\tMontenegro\t1\nUnited States\tColombia\t867\nUnited States\tBarbados\t130\nUnited States\tQatar\t109\nAustralia\tUnited States\t329\nUnited States\tCayman Islands\t310\nUnited States\tJordan\t44\nUnited States\tNamibia\t1\nUnited States\tTrinidad and Tobago\t217\nUnited States\tBolivia\t13\nCook Islands\tUnited States\t13\nBulgaria\tUnited States\t3\nUnited States\tSaint Kitts and Nevis\t145\nUruguay\tUnited States\t43\nUnited States\tHaiti\t225\nBonaire, Sint Eustatius, and Saba\tUnited States\t58\nGreece\tUnited States\t30\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d12"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532312483549_827772534",
+      "id": "20180722-222123_578652601",
+      "dateCreated": "2018-07-22 22:21:23.549",
+      "dateStarted": "2018-07-22 22:23:06.295",
+      "dateFinished": "2018-07-22 22:23:06.358",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nSELECT columnName FROM dataFrameTable\nSELECT columnName * 10, otherColumn, someOtherCol as c FROM dataFrameTable\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:23:05.210",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532312571504_-814891858",
+      "id": "20180722-222251_875010543",
+      "dateCreated": "2018-07-22 22:22:51.504",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md In the simplest possible terms, you can use them to manipulate columns in your DataFrames. Let’s walk through some examples on DataFrames to \ntalk about some of the different ways of approaching this problem. The easiest way is just to use the select method and pass in the column names as strings with which you would like to work:\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:24:24.902",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532312645773_1934169942",
+      "id": "20180722-222405_1659759740",
+      "dateCreated": "2018-07-22 22:24:05.773",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "\n// in Scala\ndf.select(\"DEST_COUNTRY_NAME\").show(2)",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:25:20.826",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532312706354_1172859218",
+      "id": "20180722-222506_1226401409",
+      "dateCreated": "2018-07-22 22:25:06.355",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md You can select multiple columns by using the same style of query, just add more column name strings to your select method call:",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:26:43.227",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eYou can select multiple columns by using the same style of query, just add more column name strings to your select method call:\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532312770808_1366154099",
+      "id": "20180722-222610_1569184216",
+      "dateCreated": "2018-07-22 22:26:10.808",
+      "dateStarted": "2018-07-22 22:26:24.862",
+      "dateFinished": "2018-07-22 22:26:24.864",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// in Scala\ndf.select(\"DEST_COUNTRY_NAME\", \"ORIGIN_COUNTRY_NAME\").show(2)",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:27:00.549",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532312806732_1284530016",
+      "id": "20180722-222646_84173971",
+      "dateCreated": "2018-07-22 22:26:46.732",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nSELECT DEST_COUNTRY_NAME, ORIGIN_COUNTRY_NAME FROM dfTable LIMIT 2\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:27:24.919",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "DEST_COUNTRY_NAME": "string",
+                      "ORIGIN_COUNTRY_NAME": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "DEST_COUNTRY_NAME\tORIGIN_COUNTRY_NAME\nUnited States\tRomania\nUnited States\tCroatia\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d14"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532312820476_-684580406",
+      "id": "20180722-222700_363244948",
+      "dateCreated": "2018-07-22 22:27:00.476",
+      "dateStarted": "2018-07-22 22:27:24.145",
+      "dateFinished": "2018-07-22 22:27:24.214",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nSELECT DEST_COUNTRY_NAME FROM dfTable LIMIT 2",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:25:42.211",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "DEST_COUNTRY_NAME": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "DEST_COUNTRY_NAME\nUnited States\nUnited States\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d13"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532312720732_-1683678714",
+      "id": "20180722-222520_2029820752",
+      "dateCreated": "2018-07-22 22:25:20.732",
+      "dateStarted": "2018-07-22 22:25:41.594",
+      "dateFinished": "2018-07-22 22:25:41.647",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md you can refer to columns in a number of different ways; all you need to keep in mind is that you can use them interchangeably\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:34:40.736",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532313273118_1028094105",
+      "id": "20180722-223433_1651573573",
+      "dateCreated": "2018-07-22 22:34:33.118",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "import org.apache.spark.sql.functions.{expr, col, column}\n\ndf.select(df.col(\"DEST_COUNTRY_NAME\"),\ncol(\"DEST_COUNTRY_NAME\"),\ncolumn(\"DEST_COUNTRY_NAME\"),\n\u0027DEST_COUNTRY_NAME, \n$\"DEST_COUNTRY_NAME\",\nexpr(\"DEST_COUNTRY_NAME\")).show(2)\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:36:28.651",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "import org.apache.spark.sql.functions.{expr, col, column}\n+-----------------+-----------------+-----------------+-----------------+-----------------+-----------------+\n|DEST_COUNTRY_NAME|DEST_COUNTRY_NAME|DEST_COUNTRY_NAME|DEST_COUNTRY_NAME|DEST_COUNTRY_NAME|DEST_COUNTRY_NAME|\n+-----------------+-----------------+-----------------+-----------------+-----------------+-----------------+\n|    United States|    United States|    United States|    United States|    United States|    United States|\n|    United States|    United States|    United States|    United States|    United States|    United States|\n+-----------------+-----------------+-----------------+-----------------+-----------------+-----------------+\nonly showing top 2 rows\n\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d15"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532313280626_-1901739949",
+      "id": "20180722-223440_1160204309",
+      "dateCreated": "2018-07-22 22:34:40.626",
+      "dateStarted": "2018-07-22 22:35:56.974",
+      "dateFinished": "2018-07-22 22:35:57.260",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md This will not work, because you are mixing different types",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:37:31.360",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eThis will not work, because you are mixing different types\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532313413894_-1094979875",
+      "id": "20180722-223653_1567703233",
+      "dateCreated": "2018-07-22 22:36:53.894",
+      "dateStarted": "2018-07-22 22:37:31.360",
+      "dateFinished": "2018-07-22 22:37:31.363",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "df.select(col(\"DEST_COUNTRY_NAME\"), \"DEST_COUNTRY_NAME\")",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:37:38.367",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u003cconsole\u003e:35: error: overloaded method value select with alternatives:\n  [U1, U2](c1: org.apache.spark.sql.TypedColumn[org.apache.spark.sql.Row,U1], c2: org.apache.spark.sql.TypedColumn[org.apache.spark.sql.Row,U2])org.apache.spark.sql.Dataset[(U1, U2)] \u003cand\u003e\n  (col: String,cols: String*)org.apache.spark.sql.DataFrame \u003cand\u003e\n  (cols: org.apache.spark.sql.Column*)org.apache.spark.sql.DataFrame\n cannot be applied to (org.apache.spark.sql.Column, String)\n       df.select(col(\"DEST_COUNTRY_NAME\"), \"DEST_COUNTRY_NAME\")\n          ^\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532313410078_1500078049",
+      "id": "20180722-223650_557923898",
+      "dateCreated": "2018-07-22 22:36:50.078",
+      "dateStarted": "2018-07-22 22:37:38.401",
+      "dateFinished": "2018-07-22 22:37:38.426",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md expr is the most flexible reference that we can use. \nIt can refer to a plain column or a string manipulation of a column. \nTo illustrate, let’s change the column name, and then change it back by using the AS keyword and then the alias method on the column:",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:38:31.276",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532313462879_-2046213069",
+      "id": "20180722-223742_1421466553",
+      "dateCreated": "2018-07-22 22:37:42.879",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// in Scala\ndf.select(expr(\"DEST_COUNTRY_NAME AS destination\")).show(2)",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:38:53.481",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+-------------+\n|  destination|\n+-------------+\n|United States|\n|United States|\n+-------------+\nonly showing top 2 rows\n\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d16"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532313511170_-911650078",
+      "id": "20180722-223831_1834205833",
+      "dateCreated": "2018-07-22 22:38:31.170",
+      "dateStarted": "2018-07-22 22:38:53.507",
+      "dateFinished": "2018-07-22 22:38:53.667",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nSELECT DEST_COUNTRY_NAME as destination FROM dfTable LIMIT 2",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:39:31.387",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "destination": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "destination\nUnited States\nUnited States\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d17"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532313528313_831423464",
+      "id": "20180722-223848_1510640002",
+      "dateCreated": "2018-07-22 22:38:48.313",
+      "dateStarted": "2018-07-22 22:39:30.621",
+      "dateFinished": "2018-07-22 22:39:30.663",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// You can also do \n// in Scala\ndf.select(expr(\"DEST_COUNTRY_NAME as destination\").alias(\"DEST_COUNTRY_NAME\")).show(2)\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:44:13.621",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala",
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+-----------------+\n|DEST_COUNTRY_NAME|\n+-----------------+\n|    United States|\n|    United States|\n+-----------------+\nonly showing top 2 rows\n\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d18"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532313781290_-1089602930",
+      "id": "20180722-224301_308663998",
+      "dateCreated": "2018-07-22 22:43:01.290",
+      "dateStarted": "2018-07-22 22:44:13.622",
+      "dateFinished": "2018-07-22 22:44:13.814",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md We can treat selectExpr as a simple way to build up complex expressions that create new DataFrames. \nIn fact, we can add any valid non-aggregating SQL statement, and as long as the columns resolve,\nit will be valid! Here’s a simple example that adds a new column withinCountry to our DataFrame that specifies whether the destination and origin are the same:",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:45:34.419",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532313861481_-1593944420",
+      "id": "20180722-224421_632241075",
+      "dateCreated": "2018-07-22 22:44:21.481",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// in Scala\ndf.selectExpr(\n    \"*\", // include all original columns \n    \"(DEST_COUNTRY_NAME \u003d ORIGIN_COUNTRY_NAME) as withinCountry\"\n    ).show(2)",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:46:14.391",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+-----------------+-------------------+-----+-------------+\n|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|withinCountry|\n+-----------------+-------------------+-----+-------------+\n|    United States|            Romania|   15|        false|\n|    United States|            Croatia|    1|        false|\n+-----------------+-------------------+-----+-------------+\nonly showing top 2 rows\n\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d19"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532313934330_1061534447",
+      "id": "20180722-224534_1534609107",
+      "dateCreated": "2018-07-22 22:45:34.330",
+      "dateStarted": "2018-07-22 22:46:14.425",
+      "dateFinished": "2018-07-22 22:46:14.610",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md In sql\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:47:00.384",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532313984580_395594513",
+      "id": "20180722-224624_155103016",
+      "dateCreated": "2018-07-22 22:46:24.580",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nSELECT *, (DEST_COUNTRY_NAME \u003d ORIGIN_COUNTRY_NAME) as withinCountry FROM dfTable LIMIT 2\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:48:08.259",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "DEST_COUNTRY_NAME": "string",
+                      "ORIGIN_COUNTRY_NAME": "string",
+                      "count": "string",
+                      "withinCountry": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "DEST_COUNTRY_NAME\tORIGIN_COUNTRY_NAME\tcount\twithinCountry\nUnited States\tRomania\t15\tfalse\nUnited States\tCroatia\t1\tfalse\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d20"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314014780_394532932",
+      "id": "20180722-224654_1135236240",
+      "dateCreated": "2018-07-22 22:46:54.781",
+      "dateStarted": "2018-07-22 22:48:07.171",
+      "dateFinished": "2018-07-22 22:48:07.217",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nWith select expression, we can also specify aggregations over the entire DataFrame by taking advantage of the functions that we have. These look just like what we have been showing so far:\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:48:53.941",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314119669_1969234435",
+      "id": "20180722-224839_1739045442",
+      "dateCreated": "2018-07-22 22:48:39.670",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "df.selectExpr(\"avg(count)\", \"count(distinct(DEST_COUNTRY_NAME))\").show(2)\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:49:16.304",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+-----------+---------------------------------+\n| avg(count)|count(DISTINCT DEST_COUNTRY_NAME)|\n+-----------+---------------------------------+\n|1770.765625|                              132|\n+-----------+---------------------------------+\n\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d21"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314148553_-2038138238",
+      "id": "20180722-224908_762654230",
+      "dateCreated": "2018-07-22 22:49:08.553",
+      "dateStarted": "2018-07-22 22:49:16.364",
+      "dateFinished": "2018-07-22 22:49:17.223",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nSELECT avg(count), count(distinct(DEST_COUNTRY_NAME)) FROM dfTable LIMIT 2",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:49:40.527",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "avg(count)": "string",
+                      "count(DISTINCT DEST_COUNTRY_NAME)": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "avg(count)\tcount(DISTINCT DEST_COUNTRY_NAME)\n1770.765625\t132\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d22"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314169319_19575319",
+      "id": "20180722-224929_752472068",
+      "dateCreated": "2018-07-22 22:49:29.319",
+      "dateStarted": "2018-07-22 22:49:39.372",
+      "dateFinished": "2018-07-22 22:49:39.674",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Converting to Spark Types (Literals)\n\nSometimes, we need to pass explicit values into Spark that are just a value (rather than a new column). This might be a constant value or something we’ll need to compare to later on. \nThe way we do this is through literals. This is basically a translation from a given programming language’s literal value to one that Spark understands. Literals are expressions and you can use them in the same way:\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:50:32.125",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314213248_2039028998",
+      "id": "20180722-225013_731933695",
+      "dateCreated": "2018-07-22 22:50:13.248",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "import org.apache.spark.sql.functions.litdf.select(expr(\"*\"), lit(1).as(\"One\")).show(2)\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:50:49.063",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314232021_-1081700982",
+      "id": "20180722-225032_697341760",
+      "dateCreated": "2018-07-22 22:50:32.021",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "//in scala\ndf.select(expr(\"*\"), lit(1).as(\"One\")).show(2)",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:51:31.116",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314271968_-454036720",
+      "id": "20180722-225111_572188017",
+      "dateCreated": "2018-07-22 22:51:11.968",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nSELECT *, 1 as One FROM dfTable LIMIT 2",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:51:49.250",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "DEST_COUNTRY_NAME": "string",
+                      "ORIGIN_COUNTRY_NAME": "string",
+                      "count": "string",
+                      "One": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "DEST_COUNTRY_NAME\tORIGIN_COUNTRY_NAME\tcount\tOne\nUnited States\tRomania\t15\t1\nUnited States\tCroatia\t1\t1\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d23"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314290992_-224881046",
+      "id": "20180722-225130_203405940",
+      "dateCreated": "2018-07-22 22:51:30.992",
+      "dateStarted": "2018-07-22 22:51:48.287",
+      "dateFinished": "2018-07-22 22:51:48.347",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Adding Columns\nThere’s also a more formal way of adding a new column to a DataFrame, and that’s by using the withColumn method on our DataFrame. For example, let’s add a column that just adds the number one as a column:\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:54:58.919",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eAdding Columns\u003c/h2\u003e\n\u003cp\u003eThere’s also a more formal way of adding a new column to a DataFrame, and that’s by using the withColumn method on our DataFrame. For example, let’s add a column that just adds the number one as a column:\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314338502_-1224346493",
+      "id": "20180722-225218_1392267978",
+      "dateCreated": "2018-07-22 22:52:18.502",
+      "dateStarted": "2018-07-22 22:54:36.526",
+      "dateFinished": "2018-07-22 22:54:36.530",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "df.withColumn(\"numberOne\", lit(1)).show(2)\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:55:36.283",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+-----------------+-------------------+-----+---------+\n|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|numberOne|\n+-----------------+-------------------+-----+---------+\n|    United States|            Romania|   15|        1|\n|    United States|            Croatia|    1|        1|\n+-----------------+-------------------+-----+---------+\nonly showing top 2 rows\n\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d24"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314501042_1490939320",
+      "id": "20180722-225501_1177319344",
+      "dateCreated": "2018-07-22 22:55:01.042",
+      "dateStarted": "2018-07-22 22:55:36.315",
+      "dateFinished": "2018-07-22 22:55:36.447",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\nSELECT *, 1 as numberOne FROM dfTable LIMIT 2",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:55:41.829",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "DEST_COUNTRY_NAME": "string",
+                      "ORIGIN_COUNTRY_NAME": "string",
+                      "count": "string",
+                      "numberOne": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "DEST_COUNTRY_NAME\tORIGIN_COUNTRY_NAME\tcount\tnumberOne\nUnited States\tRomania\t15\t1\nUnited States\tCroatia\t1\t1\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d25"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314517778_1814422028",
+      "id": "20180722-225517_1430334314",
+      "dateCreated": "2018-07-22 22:55:17.778",
+      "dateStarted": "2018-07-22 22:55:40.898",
+      "dateFinished": "2018-07-22 22:55:40.930",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md Let’s do something a bit more interesting and make it an actual expression. In the next example, we’ll set a Boolean flag for when the origin country is the same as the destination country:\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:56:29.048",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eLet’s do something a bit more interesting and make it an actual expression. In the next example, we’ll set a Boolean flag for when the origin country is the same as the destination country:\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314573078_-471556506",
+      "id": "20180722-225613_643366376",
+      "dateCreated": "2018-07-22 22:56:13.078",
+      "dateStarted": "2018-07-22 22:56:25.185",
+      "dateFinished": "2018-07-22 22:56:25.188",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "df.withColumn(\"withinCountry\", expr(\"ORIGIN_COUNTRY_NAME \u003d\u003d DEST_COUNTRY_NAME\")).show(2)\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:57:05.475",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+-----------------+-------------------+-----+-------------+\n|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|withinCountry|\n+-----------------+-------------------+-----+-------------+\n|    United States|            Romania|   15|        false|\n|    United States|            Croatia|    1|        false|\n+-----------------+-------------------+-----+-------------+\nonly showing top 2 rows\n\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d26"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314591939_-842201175",
+      "id": "20180722-225631_2068051879",
+      "dateCreated": "2018-07-22 22:56:31.939",
+      "dateStarted": "2018-07-22 22:57:05.538",
+      "dateFinished": "2018-07-22 22:57:05.661",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Renaming Columns\nYou can use the withColumnRenamed method. This will rename the column with the name of the string in the first argument to the string in the second argument",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:58:23.492",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eRenaming Columns\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314655360_590760885",
+      "id": "20180722-225735_854803898",
+      "dateCreated": "2018-07-22 22:57:35.360",
+      "dateStarted": "2018-07-22 22:57:47.335",
+      "dateFinished": "2018-07-22 22:57:47.338",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "df.withColumnRenamed(\"DEST_COUNTRY_NAME\", \"dest\").columns\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 22:58:46.388",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res72: Array[String] \u003d Array(dest, ORIGIN_COUNTRY_NAME, count)\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314712382_1596676239",
+      "id": "20180722-225832_2034462288",
+      "dateCreated": "2018-07-22 22:58:32.382",
+      "dateStarted": "2018-07-22 22:58:46.472",
+      "dateFinished": "2018-07-22 22:58:46.567",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Removing Columns",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 23:00:15.474",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eRemoving Columns\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314757181_1113648995",
+      "id": "20180722-225917_1762139911",
+      "dateCreated": "2018-07-22 22:59:17.181",
+      "dateStarted": "2018-07-22 22:59:45.261",
+      "dateFinished": "2018-07-22 22:59:45.263",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "df.drop(\"ORIGIN_COUNTRY_NAME\").columns\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 23:00:25.525",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res74: Array[String] \u003d Array(DEST_COUNTRY_NAME, count)\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314817453_-1288905058",
+      "id": "20180722-230017_1057960921",
+      "dateCreated": "2018-07-22 23:00:17.453",
+      "dateStarted": "2018-07-22 23:00:25.558",
+      "dateFinished": "2018-07-22 23:00:25.646",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md We can drop multiple columns by passing in multiple columns as arguments:",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 23:03:00.616",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eWe can drop multiple columns by passing in multiple columns as arguments:\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314896280_497672447",
+      "id": "20180722-230136_360882248",
+      "dateCreated": "2018-07-22 23:01:36.281",
+      "dateStarted": "2018-07-22 23:02:15.928",
+      "dateFinished": "2018-07-22 23:02:15.930",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "dfWithLongColName.drop(\"ORIGIN_COUNTRY_NAME\", \"DEST_COUNTRY_NAME\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-22 23:03:10.176",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u003cconsole\u003e:31: error: not found: value dfWithLongColName\n       dfWithLongColName.drop(\"ORIGIN_COUNTRY_NAME\", \"DEST_COUNTRY_NAME\")\n       ^\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532314982471_-158000354",
+      "id": "20180722-230302_716388696",
+      "dateCreated": "2018-07-22 23:03:02.471",
+      "dateStarted": "2018-07-22 23:03:10.243",
+      "dateFinished": "2018-07-22 23:03:10.250",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Changing a Column’s Type (cast)\n\nSometimes, we might need to convert from one type to another; for example, if we have a set of StringType that should be integers. \nWe can convert columns from one type to another by casting the column from one type to another.\nFor instance, let’s convert our count column from an integer to a type Long:",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:15:36.286",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532358903313_-1226576538",
+      "id": "20180723-111503_2078569405",
+      "dateCreated": "2018-07-23 11:15:03.313",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "\ndf.withColumn(\"count2\", col(\"count\").cast(\"long\"))",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:15:49.436",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532358937952_-138009188",
+      "id": "20180723-111537_365165461",
+      "dateCreated": "2018-07-23 11:15:37.952",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\n-- in SQL\nSELECT *, cast(count as long) AS count2 FROM dfTable",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:16:09.396",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "DEST_COUNTRY_NAME": "string",
+                      "ORIGIN_COUNTRY_NAME": "string",
+                      "count": "string",
+                      "count2": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "DEST_COUNTRY_NAME\tORIGIN_COUNTRY_NAME\tcount\tcount2\nUnited States\tRomania\t15\t15\nUnited States\tCroatia\t1\t1\nUnited States\tIreland\t344\t344\nEgypt\tUnited States\t15\t15\nUnited States\tIndia\t62\t62\nUnited States\tSingapore\t1\t1\nUnited States\tGrenada\t62\t62\nCosta Rica\tUnited States\t588\t588\nSenegal\tUnited States\t40\t40\nMoldova\tUnited States\t1\t1\nUnited States\tSint Maarten\t325\t325\nUnited States\tMarshall Islands\t39\t39\nGuyana\tUnited States\t64\t64\nMalta\tUnited States\t1\t1\nAnguilla\tUnited States\t41\t41\nBolivia\tUnited States\t30\t30\nUnited States\tParaguay\t6\t6\nAlgeria\tUnited States\t4\t4\nTurks and Caicos Islands\tUnited States\t230\t230\nUnited States\tGibraltar\t1\t1\nSaint Vincent and the Grenadines\tUnited States\t1\t1\nItaly\tUnited States\t382\t382\nUnited States\tFederated States of Micronesia\t69\t69\nUnited States\tRussia\t161\t161\nPakistan\tUnited States\t12\t12\nUnited States\tNetherlands\t660\t660\nIceland\tUnited States\t181\t181\nMarshall Islands\tUnited States\t42\t42\nLuxembourg\tUnited States\t155\t155\nHonduras\tUnited States\t362\t362\nThe Bahamas\tUnited States\t955\t955\nUnited States\tSenegal\t42\t42\nEl Salvador\tUnited States\t561\t561\nSamoa\tUnited States\t25\t25\nUnited States\tAngola\t13\t13\nSwitzerland\tUnited States\t294\t294\nUnited States\tAnguilla\t38\t38\nSint Maarten\tUnited States\t325\t325\nHong Kong\tUnited States\t332\t332\nTrinidad and Tobago\tUnited States\t211\t211\nLatvia\tUnited States\t19\t19\nUnited States\tEcuador\t300\t300\nSuriname\tUnited States\t1\t1\nMexico\tUnited States\t7140\t7140\nUnited States\tCyprus\t1\t1\nEcuador\tUnited States\t268\t268\nUnited States\tPortugal\t134\t134\nUnited States\tCosta Rica\t608\t608\nUnited States\tGuatemala\t318\t318\nUnited States\tSuriname\t34\t34\nColombia\tUnited States\t873\t873\nUnited States\tCape Verde\t14\t14\nUnited States\tJamaica\t712\t712\nNorway\tUnited States\t121\t121\nUnited States\tMalaysia\t3\t3\nUnited States\tMorocco\t19\t19\nThailand\tUnited States\t3\t3\nUnited States\tSamoa\t25\t25\nVenezuela\tUnited States\t290\t290\nUnited States\tPalau\t31\t31\nUnited States\tVenezuela\t246\t246\nPanama\tUnited States\t510\t510\nAntigua and Barbuda\tUnited States\t126\t126\nUnited States\tChile\t185\t185\nMorocco\tUnited States\t15\t15\nUnited States\tFinland\t28\t28\nAzerbaijan\tUnited States\t21\t21\nUnited States\tGreece\t23\t23\nUnited States\tThe Bahamas\t986\t986\nNew Zealand\tUnited States\t111\t111\nLiberia\tUnited States\t2\t2\nUnited States\tHong Kong\t414\t414\nHungary\tUnited States\t2\t2\nUnited States\tChina\t920\t920\nUnited States\tVietnam\t2\t2\nBurkina Faso\tUnited States\t1\t1\nSweden\tUnited States\t118\t118\nUnited States\tKuwait\t28\t28\nUnited States\tDominican Republic\t1420\t1420\nUnited States\tEgypt\t12\t12\nIsrael\tUnited States\t134\t134\nUnited States\tUnited States\t370002\t370002\nEthiopia\tUnited States\t13\t13\nUnited States\tLuxembourg\t134\t134\nUnited States\tPoland\t33\t33\nMartinique\tUnited States\t44\t44\nUnited States\tSaint Barthelemy\t41\t41\nSaint Barthelemy\tUnited States\t39\t39\nBarbados\tUnited States\t154\t154\nUnited States\tTurkey\t129\t129\nDjibouti\tUnited States\t1\t1\nUnited States\tAzerbaijan\t21\t21\nUnited States\tEstonia\t1\t1\nGermany\tUnited States\t1468\t1468\nUnited States\tSouth Korea\t827\t827\nUnited States\tEl Salvador\t508\t508\nIreland\tUnited States\t335\t335\nUnited States\tHungary\t3\t3\nZambia\tUnited States\t1\t1\nMalaysia\tUnited States\t2\t2\nUnited States\tEthiopia\t12\t12\nUnited States\tPanama\t465\t465\nUnited States\tAruba\t342\t342\nUnited States\tThailand\t4\t4\nUnited States\tTurks and Caicos Islands\t236\t236\nCroatia\tUnited States\t2\t2\nUnited States\tPakistan\t12\t12\nCyprus\tUnited States\t1\t1\nUnited States\tHonduras\t407\t407\nFiji\tUnited States\t24\t24\nQatar\tUnited States\t108\t108\nSaint Kitts and Nevis\tUnited States\t139\t139\nKuwait\tUnited States\t32\t32\nTaiwan\tUnited States\t266\t266\nHaiti\tUnited States\t226\t226\nCanada\tUnited States\t8399\t8399\nFederated States of Micronesia\tUnited States\t69\t69\nUnited States\tLiberia\t2\t2\nJamaica\tUnited States\t666\t666\nUnited States\tMalta\t2\t2\nDominican Republic\tUnited States\t1353\t1353\nJapan\tUnited States\t1548\t1548\nUnited States\tLithuania\t1\t1\nFinland\tUnited States\t26\t26\nUnited States\tGuadeloupe\t59\t59\nUnited States\tUkraine\t13\t13\nUnited States\tFrance\t952\t952\nUnited States\tNorway\t115\t115\nAruba\tUnited States\t346\t346\nFrench Guiana\tUnited States\t5\t5\nUnited States\tKiribati\t35\t35\nIndia\tUnited States\t61\t61\nBritish Virgin Islands\tUnited States\t107\t107\nBrazil\tUnited States\t853\t853\nUnited States\tGermany\t1336\t1336\nUnited States\tNew Zealand\t74\t74\nFrench Polynesia\tUnited States\t43\t43\nUnited Arab Emirates\tUnited States\t320\t320\nSingapore\tUnited States\t3\t3\nUnited States\tMexico\t7187\t7187\nUnited States\tSweden\t119\t119\nNetherlands\tUnited States\t776\t776\nUnited States\tMartinique\t43\t43\nUnited States\tUnited Arab Emirates\t313\t313\nUnited States\tBulgaria\t1\t1\nDenmark\tUnited States\t153\t153\nChina\tUnited States\t772\t772\nUnited States\tNicaragua\t201\t201\nUnited States\tPhilippines\t126\t126\nUnited States\tGeorgia\t1\t1\nUnited States\tBelgium\t228\t228\nCayman Islands\tUnited States\t314\t314\nArgentina\tUnited States\t180\t180\nPeru\tUnited States\t279\t279\nSouth Africa\tUnited States\t36\t36\nUnited States\tIceland\t202\t202\nUnited States\tArgentina\t141\t141\nSpain\tUnited States\t420\t420\nBermuda\tUnited States\t183\t183\nUnited States\tNigeria\t50\t50\nUnited States\tAustria\t63\t63\nUnited States\tBonaire, Sint Eustatius, and Saba\t59\t59\nKiribati\tUnited States\t26\t26\nSaudi Arabia\tUnited States\t83\t83\nCzech Republic\tUnited States\t13\t13\nUnited States\tIsrael\t127\t127\nBelgium\tUnited States\t259\t259\nUnited States\tSaint Lucia\t136\t136\nUnited States\tBahrain\t1\t1\nUnited States\tBritish Virgin Islands\t80\t80\nCuracao\tUnited States\t90\t90\nGeorgia\tUnited States\t2\t2\nUnited States\tDenmark\t152\t152\nUnited States\tGuyana\t63\t63\nPhilippines\tUnited States\t134\t134\nGrenada\tUnited States\t53\t53\nCape Verde\tUnited States\t20\t20\nCote d\u0027Ivoire\tUnited States\t1\t1\nUkraine\tUnited States\t14\t14\nUnited States\tPapua New Guinea\t1\t1\nRussia\tUnited States\t176\t176\nUnited States\tSaudi Arabia\t70\t70\nGuatemala\tUnited States\t397\t397\nSaint Lucia\tUnited States\t123\t123\nParaguay\tUnited States\t60\t60\nUnited States\tCuracao\t83\t83\nKosovo\tUnited States\t1\t1\nUnited States\tTaiwan\t235\t235\nTunisia\tUnited States\t3\t3\nUnited States\tSouth Africa\t40\t40\nNiger\tUnited States\t2\t2\nTurkey\tUnited States\t138\t138\nUnited Kingdom\tUnited States\t2025\t2025\nRomania\tUnited States\t14\t14\nUnited States\tGreenland\t4\t4\nPapua New Guinea\tUnited States\t3\t3\nUnited States\tSpain\t442\t442\nIraq\tUnited States\t1\t1\nUnited States\tItaly\t438\t438\nCuba\tUnited States\t466\t466\nUnited States\tSwitzerland\t305\t305\nDominica\tUnited States\t20\t20\nUnited States\tJapan\t1496\t1496\nPortugal\tUnited States\t127\t127\nUnited States\tBrazil\t619\t619\nBahrain\tUnited States\t19\t19\nUnited States\tPeru\t337\t337\nIndonesia\tUnited States\t1\t1\nUnited States\tBelize\t193\t193\nUnited States\tUnited Kingdom\t1970\t1970\nBelize\tUnited States\t188\t188\nUnited States\tGhana\t20\t20\nUnited States\tIndonesia\t2\t2\nUnited States\tFiji\t25\t25\nUnited States\tCanada\t8483\t8483\nUnited States\tAntigua and Barbuda\t117\t117\nUnited States\tFrench Polynesia\t40\t40\nNicaragua\tUnited States\t179\t179\nUnited States\tLatvia\t15\t15\nUnited States\tDominica\t27\t27\nUnited States\tCzech Republic\t12\t12\nUnited States\tAustralia\t258\t258\nUnited States\tCook Islands\t13\t13\nAustria\tUnited States\t62\t62\nJordan\tUnited States\t44\t44\nPalau\tUnited States\t30\t30\nSouth Korea\tUnited States\t1048\t1048\nAngola\tUnited States\t15\t15\nGhana\tUnited States\t18\t18\nNew Caledonia\tUnited States\t1\t1\nGuadeloupe\tUnited States\t56\t56\nFrance\tUnited States\t935\t935\nPoland\tUnited States\t32\t32\nNigeria\tUnited States\t59\t59\nUnited States\tUruguay\t13\t13\nGreenland\tUnited States\t2\t2\nUnited States\tBermuda\t193\t193\nChile\tUnited States\t174\t174\nUnited States\tCuba\t478\t478\nUnited States\tMontenegro\t1\t1\nUnited States\tColombia\t867\t867\nUnited States\tBarbados\t130\t130\nUnited States\tQatar\t109\t109\nAustralia\tUnited States\t329\t329\nUnited States\tCayman Islands\t310\t310\nUnited States\tJordan\t44\t44\nUnited States\tNamibia\t1\t1\nUnited States\tTrinidad and Tobago\t217\t217\nUnited States\tBolivia\t13\t13\nCook Islands\tUnited States\t13\t13\nBulgaria\tUnited States\t3\t3\nUnited States\tSaint Kitts and Nevis\t145\t145\nUruguay\tUnited States\t43\t43\nUnited States\tHaiti\t225\t225\nBonaire, Sint Eustatius, and Saba\tUnited States\t58\t58\nGreece\tUnited States\t30\t30\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d27"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532358949321_1549380061",
+      "id": "20180723-111549_1670123889",
+      "dateCreated": "2018-07-23 11:15:49.321",
+      "dateStarted": "2018-07-23 11:16:08.250",
+      "dateFinished": "2018-07-23 11:16:08.347",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Filtering Rows\nTo filter rows, we create an expression that evaluates to true or false. You then filter out the rows with an expression that is equal to false.\nThe most common way to do this with DataFrames is to create either an expression as a String or build an expression by using a set of column manipulations. \nThere are two methods to perform this operation: \n1. you can use where or filter\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:25:22.128",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eFiltering Rows\u003c/h2\u003e\n\u003cp\u003eTo filter rows, we create an expression that evaluates to true or false. You then filter out the rows with an expression that is equal to false.\u003cbr/\u003eThe most common way to do this with DataFrames is to create either an expression as a String or build an expression by using a set of column manipulations.\u003cbr/\u003eThere are two methods to perform this operation:\u003cbr/\u003e1. you can use where or filter\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532359083514_80893337",
+      "id": "20180723-111803_286947158",
+      "dateCreated": "2018-07-23 11:18:03.514",
+      "dateStarted": "2018-07-23 11:25:12.712",
+      "dateFinished": "2018-07-23 11:25:12.715",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md using \"filter\"\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:26:17.994",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532359561889_897339608",
+      "id": "20180723-112601_266710149",
+      "dateCreated": "2018-07-23 11:26:01.890",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "df.filter(col(\"count\") \u003c 2).show(2)\n\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:28:00.532",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+-----------------+-------------------+-----+\n|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|\n+-----------------+-------------------+-----+\n|    United States|            Croatia|    1|\n|    United States|          Singapore|    1|\n+-----------------+-------------------+-----+\nonly showing top 2 rows\n\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d30"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532359524520_1222103286",
+      "id": "20180723-112524_941628247",
+      "dateCreated": "2018-07-23 11:25:24.520",
+      "dateStarted": "2018-07-23 11:28:00.567",
+      "dateFinished": "2018-07-23 11:28:00.735",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md using where",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:26:41.648",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532359586978_1960550481",
+      "id": "20180723-112626_1303821926",
+      "dateCreated": "2018-07-23 11:26:26.978",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "df.where(\"count \u003c 2\").show(2)",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:27:55.654",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+-----------------+-------------------+-----+\n|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|\n+-----------------+-------------------+-----+\n|    United States|            Croatia|    1|\n|    United States|          Singapore|    1|\n+-----------------+-------------------+-----+\nonly showing top 2 rows\n\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d29"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532359579185_1439351951",
+      "id": "20180723-112619_1648869535",
+      "dateCreated": "2018-07-23 11:26:19.185",
+      "dateStarted": "2018-07-23 11:27:55.700",
+      "dateFinished": "2018-07-23 11:27:55.888",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql \n-- in SQL\nSELECT * FROM dfTable WHERE count \u003c 2 LIMIT 2",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:27:23.909",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "DEST_COUNTRY_NAME": "string",
+                      "ORIGIN_COUNTRY_NAME": "string",
+                      "count": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "DEST_COUNTRY_NAME\tORIGIN_COUNTRY_NAME\tcount\nUnited States\tCroatia\t1\nUnited States\tSingapore\t1\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d28"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532359605457_-2108609319",
+      "id": "20180723-112645_2131394679",
+      "dateCreated": "2018-07-23 11:26:45.457",
+      "dateStarted": "2018-07-23 11:27:22.790",
+      "dateFinished": "2018-07-23 11:27:22.848",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Using multiple filters\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:28:52.726",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532359689356_585425921",
+      "id": "20180723-112809_1456862490",
+      "dateCreated": "2018-07-23 11:28:09.356",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// in Scala\ndf.where(col(\"count\") \u003c 2).where(col(\"ORIGIN_COUNTRY_NAME\") \u003d!\u003d \"Croatia\").show(2)\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:29:20.871",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+-----------------+-------------------+-----+\n|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|\n+-----------------+-------------------+-----+\n|    United States|          Singapore|    1|\n|          Moldova|      United States|    1|\n+-----------------+-------------------+-----+\nonly showing top 2 rows\n\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d31"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532359732556_-206800078",
+      "id": "20180723-112852_93898567",
+      "dateCreated": "2018-07-23 11:28:52.557",
+      "dateStarted": "2018-07-23 11:29:20.941",
+      "dateFinished": "2018-07-23 11:29:21.078",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\n-- in SQL\nSELECT * FROM dfTable WHERE count \u003c 2 AND ORIGIN_COUNTRY_NAME !\u003d \"Croatia\"LIMIT 2",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:30:40.669",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "DEST_COUNTRY_NAME": "string",
+                      "ORIGIN_COUNTRY_NAME": "string",
+                      "count": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "DEST_COUNTRY_NAME\tORIGIN_COUNTRY_NAME\tcount\nUnited States\tSingapore\t1\nMoldova\tUnited States\t1\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d32"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532359767446_1448078722",
+      "id": "20180723-112927_1749472137",
+      "dateCreated": "2018-07-23 11:29:27.446",
+      "dateStarted": "2018-07-23 11:30:39.541",
+      "dateFinished": "2018-07-23 11:30:39.587",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md Getting Unique Rows\nA very common use case is to extract the unique or distinct values in a DataFrame. These values can be in one or more columns.\nThe way we do this is by using the distinct method on a DataFrame, which allows us to deduplicate any rows that are in that DataFrame.\nFor instance, let’s get the unique origins in our dataset. This, of course, is a transformation that will return a new DataFrame with only unique rows:\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:32:01.258",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532359867698_-1962336773",
+      "id": "20180723-113107_1145509310",
+      "dateCreated": "2018-07-23 11:31:07.698",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// in Scala\ndf.select(\"ORIGIN_COUNTRY_NAME\", \"DEST_COUNTRY_NAME\").distinct().count()\n\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:32:45.055",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532359909137_-1051028749",
+      "id": "20180723-113149_466185261",
+      "dateCreated": "2018-07-23 11:31:49.137",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\n-- in SQL \nSELECT COUNT(DISTINCT(ORIGIN_COUNTRY_NAME, DEST_COUNTRY_NAME)) FROM dfTable",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:33:06.139",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "count(DISTINCT named_struct(ORIGIN_COUNTRY_NAME, ORIGIN_COUNTRY_NAME, DEST_COUNTRY_NAME, DEST_COUNTRY_NAME))": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "count(DISTINCT named_struct(ORIGIN_COUNTRY_NAME, ORIGIN_COUNTRY_NAME, DEST_COUNTRY_NAME, DEST_COUNTRY_NAME))\n256\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d33"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532359964889_-1518645856",
+      "id": "20180723-113244_459304870",
+      "dateCreated": "2018-07-23 11:32:44.889",
+      "dateStarted": "2018-07-23 11:33:04.753",
+      "dateFinished": "2018-07-23 11:33:05.130",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Concatenating and Appending Rows (Union)\n\nDataFrames are immutable. This means users cannot append to DataFrames because that would be changing it.\nTo append to a DataFrame, you must union the original DataFrame along with the new DataFrame.\nThis just concatenates the two DataFramess. To union two DataFrames, you must be sure that they have the same schema and number of columns;\notherwise, the union will fail. see the example below\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:36:18.960",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003eConcatenating and Appending Rows (Union)\u003c/h2\u003e\n\u003cp\u003eDataFrames are immutable. This means users cannot append to DataFrames because that would be changing it.\u003cbr/\u003eTo append to a DataFrame, you must union the original DataFrame along with the new DataFrame.\u003cbr/\u003eThis just concatenates the two DataFramess. To union two DataFrames, you must be sure that they have the same schema and number of columns;\u003cbr/\u003eotherwise, the union will fail.\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1532360019930_571981591",
+      "id": "20180723-113339_469567633",
+      "dateCreated": "2018-07-23 11:33:39.930",
+      "dateStarted": "2018-07-23 11:34:41.604",
+      "dateFinished": "2018-07-23 11:34:41.606",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "\n// in Scala\nimport org.apache.spark.sql.Row\n\nval schema \u003d df.schema\nval newRows \u003d Seq(  Row(\"New Country\", \"Other Country\", 5L),  Row(\"New Country 2\", \"Other Country 3\", 1L))\nval parallelizedRows \u003d spark.sparkContext.parallelize(newRows)\nval newDF \u003d spark.createDataFrame(parallelizedRows, schema)\ndf.union(newDF).where(\"count \u003d 1\").where($\"ORIGIN_COUNTRY_NAME\" \u003d!\u003d \"United States\").show() // get all of them and we\u0027ll see our new rows at the end",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:37:06.239",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "import org.apache.spark.sql.Row\nschema: org.apache.spark.sql.types.StructType \u003d StructType(StructField(DEST_COUNTRY_NAME,StringType,true), StructField(ORIGIN_COUNTRY_NAME,StringType,true), StructField(count,LongType,true))\nnewRows: Seq[org.apache.spark.sql.Row] \u003d List([New Country,Other Country,5], [New Country 2,Other Country 3,1])\nparallelizedRows: org.apache.spark.rdd.RDD[org.apache.spark.sql.Row] \u003d ParallelCollectionRDD[156] at parallelize at \u003cconsole\u003e:33\nnewDF: org.apache.spark.sql.DataFrame \u003d [DEST_COUNTRY_NAME: string, ORIGIN_COUNTRY_NAME: string ... 1 more field]\n+-----------------+-------------------+-----+\n|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|\n+-----------------+-------------------+-----+\n|    United States|            Croatia|    1|\n|    United States|          Singapore|    1|\n|    United States|          Gibraltar|    1|\n|    United States|             Cyprus|    1|\n|    United States|            Estonia|    1|\n|    United States|          Lithuania|    1|\n|    United States|           Bulgaria|    1|\n|    United States|            Georgia|    1|\n|    United States|            Bahrain|    1|\n|    United States|   Papua New Guinea|    1|\n|    United States|         Montenegro|    1|\n|    United States|            Namibia|    1|\n|    New Country 2|    Other Country 3|    1|\n+-----------------+-------------------+-----+\n\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d34",
+            "http://192.168.0.15:4040/jobs/job?id\u003d35",
+            "http://192.168.0.15:4040/jobs/job?id\u003d36",
+            "http://192.168.0.15:4040/jobs/job?id\u003d37"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532360089448_2024637192",
+      "id": "20180723-113449_478964385",
+      "dateCreated": "2018-07-23 11:34:49.448",
+      "dateStarted": "2018-07-23 11:37:06.286",
+      "dateFinished": "2018-07-23 11:37:06.954",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ## Sorting Rows\n\nWhen we sort the values in a DataFrame, we always want to sort with either the largest or smallest values at the top of a DataFrame. \nThere are two equivalent operations to do this sort and orderBy that work the exact same way. \nThey accept both column expressions and strings as well as multiple columns. \nThe default is to sort in ascending order: See the example below:",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:39:24.790",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532360291442_-307220164",
+      "id": "20180723-113811_333403174",
+      "dateCreated": "2018-07-23 11:38:11.442",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// in Scala\ndf.sort(\"count\").show(5)\ndf.orderBy(\"count\", \"DEST_COUNTRY_NAME\").show(5)\ndf.orderBy(col(\"count\"), col(\"DEST_COUNTRY_NAME\")).show(5)\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:40:01.105",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+--------------------+-------------------+-----+\n|   DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|\n+--------------------+-------------------+-----+\n|               Malta|      United States|    1|\n|Saint Vincent and...|      United States|    1|\n|       United States|            Croatia|    1|\n|       United States|          Gibraltar|    1|\n|       United States|          Singapore|    1|\n+--------------------+-------------------+-----+\nonly showing top 5 rows\n\n+-----------------+-------------------+-----+\n|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|\n+-----------------+-------------------+-----+\n|     Burkina Faso|      United States|    1|\n|    Cote d\u0027Ivoire|      United States|    1|\n|           Cyprus|      United States|    1|\n|         Djibouti|      United States|    1|\n|        Indonesia|      United States|    1|\n+-----------------+-------------------+-----+\nonly showing top 5 rows\n\n+-----------------+-------------------+-----+\n|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|\n+-----------------+-------------------+-----+\n|     Burkina Faso|      United States|    1|\n|    Cote d\u0027Ivoire|      United States|    1|\n|           Cyprus|      United States|    1|\n|         Djibouti|      United States|    1|\n|        Indonesia|      United States|    1|\n+-----------------+-------------------+-----+\nonly showing top 5 rows\n\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d38",
+            "http://192.168.0.15:4040/jobs/job?id\u003d39",
+            "http://192.168.0.15:4040/jobs/job?id\u003d40"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532360364647_-399875395",
+      "id": "20180723-113924_2146198636",
+      "dateCreated": "2018-07-23 11:39:24.647",
+      "dateStarted": "2018-07-23 11:40:01.183",
+      "dateFinished": "2018-07-23 11:40:01.546",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md To more explicitly specify sort direction, you need to use the asc and desc functions if operating on a column. \nThese allow you to specify the order in which a given column should be sorted:",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 11:41:13.039",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532360458180_528163626",
+      "id": "20180723-114058_1942647075",
+      "dateCreated": "2018-07-23 11:40:58.181",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "\n// in Scala\nimport org.apache.spark.sql.functions.{desc, asc}\ndf.orderBy(expr(\"count desc\")).show(2)\ndf.orderBy(desc(\"count\"), asc(\"DEST_COUNTRY_NAME\")).show(2)",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 12:11:19.402",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "import org.apache.spark.sql.functions.{desc, asc}\n+-----------------+-------------------+-----+\n|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|\n+-----------------+-------------------+-----+\n|          Moldova|      United States|    1|\n|    United States|            Croatia|    1|\n+-----------------+-------------------+-----+\nonly showing top 2 rows\n\n+-----------------+-------------------+------+\n|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME| count|\n+-----------------+-------------------+------+\n|    United States|      United States|370002|\n|    United States|             Canada|  8483|\n+-----------------+-------------------+------+\nonly showing top 2 rows\n\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d41",
+            "http://192.168.0.15:4040/jobs/job?id\u003d42"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532362257165_-504468183",
+      "id": "20180723-121057_165749618",
+      "dateCreated": "2018-07-23 12:10:57.165",
+      "dateStarted": "2018-07-23 12:11:19.438",
+      "dateFinished": "2018-07-23 12:11:19.749",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\n-- in SQL\nSELECT * FROM dfTable ORDER BY count DESC, DEST_COUNTRY_NAME ASC LIMIT 2",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 12:11:56.183",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "DEST_COUNTRY_NAME": "string",
+                      "ORIGIN_COUNTRY_NAME": "string",
+                      "count": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "DEST_COUNTRY_NAME\tORIGIN_COUNTRY_NAME\tcount\nUnited States\tUnited States\t370002\nUnited States\tCanada\t8483\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d43"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532362293478_-1800430624",
+      "id": "20180723-121133_283391591",
+      "dateCreated": "2018-07-23 12:11:33.478",
+      "dateStarted": "2018-07-23 12:11:54.471",
+      "dateFinished": "2018-07-23 12:11:54.501",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n## Collecting Rows to the Driver\n\nSpark maintains the state of the cluster in the driver. There are times when you’ll want to collect some of your data to the driver in order to manipulate it on your local machine.\ncollect gets all data from the entire DataFrame, take selects the first N rows, and show prints out a number of rows nicely.",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 12:13:31.901",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532362364200_33815784",
+      "id": "20180723-121244_968847520",
+      "dateCreated": "2018-07-23 12:12:44.200",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// in Scala\nval collectDF \u003d df.limit(10)\ncollectDF.take(5) // take works with an Integer count\ncollectDF.show() // this prints it out nicely\ncollectDF.show(5, false)\ncollectDF.collect()\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 12:14:19.584",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "collectDF: org.apache.spark.sql.Dataset[org.apache.spark.sql.Row] \u003d [DEST_COUNTRY_NAME: string, ORIGIN_COUNTRY_NAME: string ... 1 more field]\nres97: Array[org.apache.spark.sql.Row] \u003d Array([United States,Romania,15], [United States,Croatia,1], [United States,Ireland,344], [Egypt,United States,15], [United States,India,62])\n+-----------------+-------------------+-----+\n|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|\n+-----------------+-------------------+-----+\n|    United States|            Romania|   15|\n|    United States|            Croatia|    1|\n|    United States|            Ireland|  344|\n|            Egypt|      United States|   15|\n|    United States|              India|   62|\n|    United States|          Singapore|    1|\n|    United States|            Grenada|   62|\n|       Costa Rica|      United States|  588|\n|          Senegal|      United States|   40|\n|          Moldova|      United States|    1|\n+-----------------+-------------------+-----+\n\n+-----------------+-------------------+-----+\n|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|\n+-----------------+-------------------+-----+\n|United States    |Romania            |15   |\n|United States    |Croatia            |1    |\n|United States    |Ireland            |344  |\n|Egypt            |United States      |15   |\n|United States    |India              |62   |\n+-----------------+-------------------+-----+\nonly showing top 5 rows\n\nres100: Array[org.apache.spark.sql.Row] \u003d Array([United States,Romania,15], [United States,Croatia,1], [United States,Ireland,344], [Egypt,United States,15], [United States,India,62], [United States,Singapore,1], [United States,Grenada,62], [Costa Rica,United States,588], [Senegal,United States,40], [Moldova,United States,1])\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.15:4040/jobs/job?id\u003d44",
+            "http://192.168.0.15:4040/jobs/job?id\u003d45",
+            "http://192.168.0.15:4040/jobs/job?id\u003d46",
+            "http://192.168.0.15:4040/jobs/job?id\u003d47"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1532362424047_-86082173",
+      "id": "20180723-121344_1198608736",
+      "dateCreated": "2018-07-23 12:13:44.047",
+      "dateStarted": "2018-07-23 12:14:19.633",
+      "dateFinished": "2018-07-23 12:14:20.097",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "\n%md ## The End",
+      "user": "anonymous",
+      "dateUpdated": "2018-07-23 12:47:09.617",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1532304956712_-248437325",
+      "id": "20180722-201556_727742913",
+      "dateCreated": "2018-07-22 20:15:56.712",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "york_fulltime_apache_spark_2018",
+  "id": "2DMS8BXMK",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "md:shared_process": [],
+    "spark:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
