@@ -1,3 +1,8 @@
+## Instructions 
+
+Create a new note on databricks. Work through the following tutorial. 
+
+
 ## Joins
 
 In yesterday class we covered  aggregating single datasets, which is helpful,but more often than not, your Spark applications are going to bring together a large number of different datasets. For this reason, joins are an essential part of nearly all Spark workloads. Spark’s ability to talk to different data means that you gain the ability to tap into a variety of data sources across your company. 
