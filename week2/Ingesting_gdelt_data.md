@@ -29,7 +29,7 @@ At the end of this lab you will have:
 
 At the end of this lab exercise you would have created the architecture shown in the figure below: 
 
-![logo](gdelt_ingestion_architecture.png)
+![ingestion architecture](gdelt_ingestion_architecture.png)
 
 
 There are multiple ways to ingest data into elastic search.
