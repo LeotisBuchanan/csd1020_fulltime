@@ -80,12 +80,11 @@ through the steps:
 
 ```console
 
-wget -c  https://raw.githubusercontent.com/LeotisBuchanan/yorkuniv/master/elasticsearch-and-kibana/configs/logstash/events-logstash.config
+wget -c  https://raw.githubusercontent.com/LeotisBuchanan/csd1020_fulltime/master/week2/logstash_configs/events-logstash.config
 
 
 ```
-
-. 
+6. 
 
 
 
